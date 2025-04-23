@@ -188,6 +188,7 @@ export default defineNuxtConfig({
     },
   },
   nitro: {
+    preset: 'vercel',
     alias: {
       'isomorphic-ws': mockProxy,
     },
