@@ -1,5 +1,69 @@
 [
   [
+    "#0097fd",
+    {
+      "--theme-color-name": "#0097fd",
+      "--c-primary": "rgb(var(--rgb-primary))",
+      "--c-primary-active": "#0080e3",
+      "--c-primary-light": "#0097fd80",
+      "--c-primary-fade": "#0092f81a",
+      "--rgb-primary": "0, 151, 253",
+      "--c-dark-primary": "rgb(var(--rgb-dark-primary))",
+      "--c-dark-primary-active": "#0085e5",
+      "--c-dark-primary-light": "#1a9cff80",
+      "--c-dark-primary-fade": "#0197fa1a",
+      "--rgb-dark-primary": "0, 151, 253"
+    }
+  ],
+  [
+    "#a27be7",
+    {
+      "--theme-color-name": "#a27be7",
+      "--c-primary": "rgb(var(--rgb-primary))",
+      "--c-primary-active": "#8964cd",
+      "--c-primary-light": "#a27be780",
+      "--c-primary-fade": "#9d76e21a",
+      "--rgb-primary": "162, 123, 231",
+      "--c-dark-primary": "rgb(var(--rgb-dark-primary))",
+      "--c-dark-primary-active": "#8e69d2",
+      "--c-dark-primary-light": "#a780ec80",
+      "--c-dark-primary-fade": "#a27be71a",
+      "--rgb-dark-primary": "162, 123, 231"
+    }
+  ],
+  [
+    "#e65da9",
+    {
+      "--theme-color-name": "#e65da9",
+      "--c-primary": "rgb(var(--rgb-primary))",
+      "--c-primary-active": "#cb4391",
+      "--c-primary-light": "#e65da980",
+      "--c-primary-fade": "#e158a41a",
+      "--rgb-primary": "230, 93, 169",
+      "--c-dark-primary": "rgb(var(--rgb-dark-primary))",
+      "--c-dark-primary-active": "#d14896",
+      "--c-dark-primary-light": "#eb62ae80",
+      "--c-dark-primary-fade": "#e65da91a",
+      "--rgb-dark-primary": "230, 93, 169"
+    }
+  ],
+  [
+    "#ef6061",
+    {
+      "--theme-color-name": "#ef6061",
+      "--c-primary": "rgb(var(--rgb-primary))",
+      "--c-primary-active": "#d3474c",
+      "--c-primary-light": "#ef606180",
+      "--c-primary-fade": "#e95b5d1a",
+      "--rgb-primary": "239, 96, 97",
+      "--c-dark-primary": "rgb(var(--rgb-dark-primary))",
+      "--c-dark-primary-active": "#d94c50",
+      "--c-dark-primary-light": "#f5656580",
+      "--c-dark-primary-fade": "#ef60611a",
+      "--rgb-dark-primary": "239, 96, 97"
+    }
+  ],
+  [
     "#cc7d24",
     {
       "--theme-color-name": "#cc7d24",
@@ -77,70 +141,6 @@
       "--c-dark-primary-light": "#17abe480",
       "--c-dark-primary-fade": "#00a6df1a",
       "--rgb-dark-primary": "0, 166, 223"
-    }
-  ],
-  [
-    "#0097fd",
-    {
-      "--theme-color-name": "#0097fd",
-      "--c-primary": "rgb(var(--rgb-primary))",
-      "--c-primary-active": "#0080e3",
-      "--c-primary-light": "#0097fd80",
-      "--c-primary-fade": "#0092f81a",
-      "--rgb-primary": "0, 151, 253",
-      "--c-dark-primary": "rgb(var(--rgb-dark-primary))",
-      "--c-dark-primary-active": "#0085e5",
-      "--c-dark-primary-light": "#1a9cff80",
-      "--c-dark-primary-fade": "#0197fa1a",
-      "--rgb-dark-primary": "0, 151, 253"
-    }
-  ],
-  [
-    "#a27be7",
-    {
-      "--theme-color-name": "#a27be7",
-      "--c-primary": "rgb(var(--rgb-primary))",
-      "--c-primary-active": "#8964cd",
-      "--c-primary-light": "#a27be780",
-      "--c-primary-fade": "#9d76e21a",
-      "--rgb-primary": "162, 123, 231",
-      "--c-dark-primary": "rgb(var(--rgb-dark-primary))",
-      "--c-dark-primary-active": "#8e69d2",
-      "--c-dark-primary-light": "#a780ec80",
-      "--c-dark-primary-fade": "#a27be71a",
-      "--rgb-dark-primary": "162, 123, 231"
-    }
-  ],
-  [
-    "#e65da9",
-    {
-      "--theme-color-name": "#e65da9",
-      "--c-primary": "rgb(var(--rgb-primary))",
-      "--c-primary-active": "#cb4391",
-      "--c-primary-light": "#e65da980",
-      "--c-primary-fade": "#e158a41a",
-      "--rgb-primary": "230, 93, 169",
-      "--c-dark-primary": "rgb(var(--rgb-dark-primary))",
-      "--c-dark-primary-active": "#d14896",
-      "--c-dark-primary-light": "#eb62ae80",
-      "--c-dark-primary-fade": "#e65da91a",
-      "--rgb-dark-primary": "230, 93, 169"
-    }
-  ],
-  [
-    "#ef6061",
-    {
-      "--theme-color-name": "#ef6061",
-      "--c-primary": "rgb(var(--rgb-primary))",
-      "--c-primary-active": "#d3474c",
-      "--c-primary-light": "#ef606180",
-      "--c-primary-fade": "#e95b5d1a",
-      "--rgb-primary": "239, 96, 97",
-      "--c-dark-primary": "rgb(var(--rgb-dark-primary))",
-      "--c-dark-primary-active": "#d94c50",
-      "--c-dark-primary-light": "#f5656580",
-      "--c-dark-primary-fade": "#ef60611a",
-      "--rgb-dark-primary": "239, 96, 97"
     }
   ]
 ]

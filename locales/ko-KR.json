@@ -65,6 +65,7 @@
     "sign_in": "로그인",
     "sign_in_to": "{0}에 로그인",
     "switch_account": "계정 전환",
+    "switch_server": "스위치 서버",
     "vote": "투표"
   },
   "app_desc_short": "민첩한 마스토돈 웹 클라이언트",
@@ -544,7 +545,8 @@
     "sign_out_account": "{0} 계정 로그아웃",
     "single_instance_sign_in_desc": "로그인해서 프로필을 팔로우하거나 해시태그, 좋아요, 게시물을 공유하고 답글을 달 수 있습니다.",
     "tip_no_account": "만약 마스토돈 계정을 가지고 있지 않는 경우, {0}.",
-    "tip_register_account": "서버를 선택하고 계정을 만드세요"
+    "tip_register_account": "서버를 선택하고 계정을 만드세요",
+    "tip_search_server": "Mastodon 디렉토리로 이동하여 원하는 인스턴스를 탐색하십시오."
   },
   "visibility": {
     "direct": "다이렉트",

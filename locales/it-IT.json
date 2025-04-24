@@ -85,6 +85,7 @@
     "sign_in": "Accedi",
     "sign_in_to": "Accedi a {0}",
     "switch_account": "Cambia account",
+    "switch_server": "Switch Server",
     "vote": "Vota"
   },
   "app_desc_short": "Un client web agile per Mastodon",
@@ -755,7 +756,8 @@
     "sign_out_account": "Esci {0}",
     "single_instance_sign_in_desc": "Accedi per seguire profili o hastag, apprezzare condividere o rispondere a post.",
     "tip_no_account": "Se ancora non hai un account Mastodon, {0}.",
-    "tip_register_account": "scegli la tua istanza preferita e registrati"
+    "tip_register_account": "scegli la tua istanza preferita e registrati",
+    "tip_search_server": "Vai alla directory Mastodon ed esplora le istanze che potrebbero piacere."
   },
   "visibility": {
     "direct": "Diretto",

@@ -1,1 +1,8 @@
-{}
+{
+  "action": {
+    "switch_server": "Servidor de cambio"
+  },
+  "user": {
+    "tip_search_server": "Vaya al directorio de Mastodon y explore las instancias que le gusten."
+  }
+}

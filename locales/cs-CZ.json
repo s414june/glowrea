@@ -45,6 +45,7 @@
     "save_changes": "Uložit změny",
     "sign_in": "Přihlásit se",
     "switch_account": "Přepnout účet",
+    "switch_server": "Přepínat server",
     "vote": "Hlasovat"
   },
   "app_desc_short": "Elk - hbitý webklient pro Mastodon.",
@@ -234,7 +235,8 @@
     "sign_in_desc": "Přihlaste se, abyste mohli sledovat profily nebo hashtagy, psát a sdílet příspěvky a odpovídat na ně na tomto nebo jiných serverech.",
     "sign_out_account": "Odhlásit {0}",
     "tip_no_account": "Pokud nemáte účet na Mastodonu, {0}.",
-    "tip_register_account": "vyberte server a zaregistrujte se"
+    "tip_register_account": "vyberte server a zaregistrujte se",
+    "tip_search_server": "Přejděte do adresáře Mastodon a prozkoumejte instance, které se vám budou líbit."
   },
   "visibility": {
     "direct": "Soukromé",

@@ -85,6 +85,7 @@
     "sign_in": "サインイン",
     "sign_in_to": "{0}にサインイン",
     "switch_account": "アカウントの切り替え",
+    "switch_server": "スイッチサーバー",
     "vote": "投票"
   },
   "app_desc_short": "軽快なMastodonウェブクライアント",
@@ -751,7 +752,8 @@
     "sign_out_account": "{0}からサインアウト",
     "single_instance_sign_in_desc": "サインインすると、プロファイルやハッシュタグのフォロー、投稿のお気に入り、共有、返信ができるようになります。",
     "tip_no_account": "まだMastodonアカウントを持っていない場合は、{0}しましょう。",
-    "tip_register_account": "サーバーを選んでアカウントを登録"
+    "tip_register_account": "サーバーを選んでアカウントを登録",
+    "tip_search_server": "Mastodonディレクトリにアクセスして、必要なインスタンスを探索してください。"
   },
   "visibility": {
     "direct": "ダイレクト",

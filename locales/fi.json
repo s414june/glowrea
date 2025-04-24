@@ -85,6 +85,7 @@
     "sign_in": "Kirjaudu sisään",
     "sign_in_to": "Kirjaudu sisään palvelimelle {0}",
     "switch_account": "Vaihda tiliä",
+    "switch_server": "Kytkentäpalvelin",
     "vote": "Äänestä"
   },
   "app_desc_short": "Ketterä verkkosovellus Mastodonille",
@@ -186,7 +187,7 @@
   "error": {
     "account_not_found": "Tiliä {0} ei löytynyt",
     "explore_list_empty": "Mikään ei ole juuri nyt nousussa. Tarkista myöhemmin uudelleen!",
-    "file_size_cannot_exceed_n_mb": "Tiedosto ei voi olla suurempi kuin {0}\u00A0Mt",
+    "file_size_cannot_exceed_n_mb": "Tiedosto ei voi olla suurempi kuin {0} Mt",
     "sign_in_error": "Tähän palvelimeen ei voitu yhdistää.",
     "status_not_found": "Julkaisua ei löytynyt",
     "unsupported_file_format": "Tiedostomuotoa ei tueta"
@@ -470,7 +471,7 @@
       "how_to_contribute": "Miten osallistua?",
       "label": "Kieli",
       "post_language": "Julkaisukieli",
-      "status": "Käännöksen tila: {0}/{1} ({2}\u00A0%)",
+      "status": "Käännöksen tila: {0}/{1} ({2} %)",
       "translations": {
         "add": "Lisää",
         "choose_language": "Valitse kieli",
@@ -749,7 +750,8 @@
     "sign_out_account": "Kirjaa ulos {0}",
     "single_instance_sign_in_desc": "Kirjaudu sisään, niin voit seurata profiileja ja aihetunnisteita, lisätä julkaisuja suosikkeihin, jakaa niitä ja vastata niihin.",
     "tip_no_account": "Jos sinulla ei ole vielä Mastodon-tiliä, {0}.",
-    "tip_register_account": "valitse palvelimesi ja luo tili"
+    "tip_register_account": "valitse palvelimesi ja luo tili",
+    "tip_search_server": "Mene Mastodon -hakemistoon ja tutki tapauksia, joista saatat pitää."
   },
   "visibility": {
     "direct": "Yksityisviesti",

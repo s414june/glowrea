@@ -85,6 +85,7 @@
     "sign_in": "Inicia sessió",
     "sign_in_to": "Inicia sessió a {0}",
     "switch_account": "Canvia de compte",
+    "switch_server": "Canvia el servidor",
     "vote": "Vota"
   },
   "app_desc_short": "Un client web àgil Mastodon",
@@ -749,7 +750,8 @@
     "sign_out_account": "Tanca la sessió {0}",
     "single_instance_sign_in_desc": "Inicieu la sessió per seguir perfils o hashtags, preferir, compartir i respondre publicacions.",
     "tip_no_account": "Si encara no teniu cap compte de Mastodon, {0}.",
-    "tip_register_account": "trieu el vostre servidor i registreu-ne un"
+    "tip_register_account": "trieu el vostre servidor i registreu-ne un",
+    "tip_search_server": "Aneu al directori de Mastodon i exploreu casos que us agradi."
   },
   "visibility": {
     "direct": "Directe",

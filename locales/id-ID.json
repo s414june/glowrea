@@ -81,6 +81,7 @@
     "sign_in": "Masuk",
     "sign_in_to": "Masuk ke {0}",
     "switch_account": "Ganti akun",
+    "switch_server": "Switch Server",
     "vote": "Pilih"
   },
   "app_desc_short": "Klien web Mastodon yang gesit",
@@ -704,7 +705,8 @@
     "sign_out_account": "Keluar {0}",
     "single_instance_sign_in_desc": "Masuk untuk mengikuti profil atau hashtag, memfavoritkan, berbagi, dan membalas postingan.",
     "tip_no_account": "Jika Anda belum memiliki akun Mastodon, {0}.",
-    "tip_register_account": "pilih server Anda dan daftarkan"
+    "tip_register_account": "pilih server Anda dan daftarkan",
+    "tip_search_server": "Pergi ke direktori mastodon dan jelajahi contoh yang mungkin Anda sukai."
   },
   "visibility": {
     "direct": "Langsung",

@@ -73,6 +73,7 @@
     "sign_in": "Giriş yap",
     "sign_in_to": "{0}'da oturum açın",
     "switch_account": "Hesap değiştir",
+    "switch_server": "Anahtar sunucusu",
     "vote": "Oy ver"
   },
   "app_desc_short": "Hızlı bir Mastodon web istemcisi",
@@ -620,7 +621,8 @@
     "sign_out_account": "{0} çıkış yap",
     "single_instance_sign_in_desc": "Profilleri veya hashtag'leri takip etmek, favorilere eklemek, gönderileri paylaşmak ve yanıtlamak için oturum açın.",
     "tip_no_account": "Eğer bir Mastodon hesabınız yoksa, {0}.",
-    "tip_register_account": "sunucunuzu seçin ve kaydolun"
+    "tip_register_account": "sunucunuzu seçin ve kaydolun",
+    "tip_search_server": "Mastodon dizinine gidin ve beğendiğiniz örnekleri keşfedin."
   },
   "visibility": {
     "direct": "Direkt",

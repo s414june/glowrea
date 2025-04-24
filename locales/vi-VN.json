@@ -85,6 +85,7 @@
     "sign_in": "Đăng nhập",
     "sign_in_to": "Đăng nhập {0}",
     "switch_account": "Chuyển sang tài khoản khác",
+    "switch_server": "Chuyển đổi máy chủ",
     "vote": "Bình chọn"
   },
   "app_desc_short": "Một ứng dụng web Mastodon nhanh nhẹn",
@@ -755,7 +756,8 @@
     "sign_out_account": "Đăng xuất {0}",
     "single_instance_sign_in_desc": "Đăng nhập để theo dõi người dùng hoặc hashtag, thích, chia sẻ và trả lời tút",
     "tip_no_account": "Nếu bạn chưa có tài khoản Mastodon, {0}.",
-    "tip_register_account": "chọn máy chủ và đăng ký"
+    "tip_register_account": "chọn máy chủ và đăng ký",
+    "tip_search_server": "Chuyển đến thư mục Mastodon và khám phá các trường hợp bạn có thể thích."
   },
   "visibility": {
     "direct": "Nhắn riêng",

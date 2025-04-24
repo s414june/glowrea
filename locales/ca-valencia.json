@@ -33,7 +33,8 @@
     "confirm": "Confirma",
     "favourite": "Marca com a preferit",
     "favourited": "Preferit",
-    "publish": "Publica"
+    "publish": "Publica",
+    "switch_server": "Canvia el servidor"
   },
   "app_desc_short": "Un client web Mastodon àgil",
   "app_logo": "Logo d'Elk",
@@ -396,7 +397,8 @@
     "sign_in_notice_title": "Veient les dades públiques de: {0}",
     "sign_out_account": "Tanca {0}",
     "tip_no_account": "Si encara no tens un compte de Mastodon, {0}.",
-    "tip_register_account": "tria un servidor i registra't"
+    "tip_register_account": "tria un servidor i registra't",
+    "tip_search_server": "Aneu al directori de Mastodon i exploreu casos que us agradi."
   },
   "visibility": {
     "direct_desc": "Visible només per als usuaris mencionats",

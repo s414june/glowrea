@@ -85,6 +85,7 @@
     "sign_in": "Mag-sign in",
     "sign_in_to": "Mag-sign in sa {0}",
     "switch_account": "Magpalit ng account",
+    "switch_server": "Lumipat ng server",
     "vote": "Bumoto"
   },
   "app_desc_short": "Isang mabilis na web client ng Mastodon",
@@ -754,7 +755,8 @@
     "sign_out_account": "Mag-sign out {0}",
     "single_instance_sign_in_desc": "Mag-sign in upang sundan ang mga profile o hashtag, paborito, ibahagi at tumugon sa mga post.",
     "tip_no_account": "Kung wala ka pang Mastodon account, {0}.",
-    "tip_register_account": "piliin ang iyong server at magrehistro ng isa"
+    "tip_register_account": "piliin ang iyong server at magrehistro ng isa",
+    "tip_search_server": "Pumunta sa direktoryo ng Mastodon at galugarin ang mga pagkakataong maaaring gusto mo."
   },
   "visibility": {
     "direct": "Direkta",

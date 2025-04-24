@@ -76,6 +76,7 @@
     "sign_in": "Se connecter",
     "sign_in_to": "Se connecter à {0}",
     "switch_account": "Changer de compte",
+    "switch_server": "Serveur de commutation",
     "vote": "Voter"
   },
   "app_desc_short": "Un client Mastodon fait avec 🧡",
@@ -696,7 +697,8 @@
     "sign_out_account": "Se déconnecter de {0}",
     "single_instance_sign_in_desc": "Connectez-vous pour suivre des profils ou des hashtags, aimer, partager et répondre aux messages.",
     "tip_no_account": "Si vous n'avez pas encore de compte Mastodon, {0}.",
-    "tip_register_account": "choisissez votre serveur et enregistrez-en un"
+    "tip_register_account": "choisissez votre serveur et enregistrez-en un",
+    "tip_search_server": "Allez au répertoire Mastodon et explorez les instances que vous pourriez aimer."
   },
   "visibility": {
     "direct": "Personnes mentionnées uniquement",

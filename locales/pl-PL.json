@@ -73,6 +73,7 @@
     "sign_in": "Zaloguj się",
     "sign_in_to": "Zaloguj się do {0}",
     "switch_account": "Przełącz konto",
+    "switch_server": "Serwer Switch",
     "vote": "Zagłosuj"
   },
   "app_desc_short": "Aplikacja webowa dla Mastodon",
@@ -617,7 +618,8 @@
     "sign_out_account": "Wyloguj {0}",
     "single_instance_sign_in_desc": "Zaloguj się, aby obserwować profile lub hashtagi, dodawać do ulubionych, udostępniać i odpowiadać na posty.",
     "tip_no_account": "Jeśli nie masz jeszcze konta Mastodon, {0}.",
-    "tip_register_account": "wybierz swój serwer i zarejestruj się"
+    "tip_register_account": "wybierz swój serwer i zarejestruj się",
+    "tip_search_server": "Idź do katalogu Mastodon i odkryj instancje, które możesz spodobać."
   },
   "visibility": {
     "direct": "Bezpośrednio",

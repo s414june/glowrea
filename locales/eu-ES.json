@@ -85,6 +85,7 @@
     "sign_in": "Hasi saioa",
     "sign_in_to": "Hasi saioa {0}(e)n",
     "switch_account": "Aldatu kontua",
+    "switch_server": "Aldatu zerbitzaria",
     "vote": "Eman botoa"
   },
   "app_desc_short": "Mastodon web-bezero arin bat",
@@ -755,7 +756,8 @@
     "sign_out_account": "Amaitu {0}(r)en saioa",
     "single_instance_sign_in_desc": "Hasi saioa profil edo traolak jarraitzeko, eta bidalketak gogoko egiteko, partekatzeko, eta erantzuteko.",
     "tip_no_account": "Oraindik Mastodon kontua ez badaukazu, {0}.",
-    "tip_register_account": "hautatu zerbitzaria eta eman izena"
+    "tip_register_account": "hautatu zerbitzaria eta eman izena",
+    "tip_search_server": "Joan mastodon direktoriora eta arakatu nahi dituzun kasuak."
   },
   "visibility": {
     "direct": "Zuzena",

@@ -85,6 +85,7 @@
     "sign_in": "Bejelentkezés",
     "sign_in_to": "Bejelentkezve: {0}",
     "switch_account": "Fiók váltás",
+    "switch_server": "Kapcsolószerver",
     "vote": "Szavazás"
   },
   "app_desc_short": "Egy fürge Mastodon kliens",
@@ -755,7 +756,8 @@
     "sign_out_account": "Kijelentkezés {0}",
     "single_instance_sign_in_desc": "Jelentkezzen be profilok vagy címkék követéséhez, kedvencei közé, bejegyzések megosztásához és megválaszolásához.",
     "tip_no_account": "Ha még nincs Mastodon fiókod: {0}.",
-    "tip_register_account": "válassz egy szervert és regisztrálj egyet"
+    "tip_register_account": "válassz egy szervert és regisztrálj egyet",
+    "tip_search_server": "Lépjen a Mastodon könyvtárba, és fedezze fel a tetsző példányokat."
   },
   "visibility": {
     "direct": "Direkt",

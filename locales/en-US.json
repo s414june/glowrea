@@ -1,1 +1,8 @@
-{}
+{
+  "action": {
+    "switch_server": "Switch Server"
+  },
+  "user": {
+    "tip_search_server": "Go to the Mastodon directory and explore instances you might like."
+  }
+}

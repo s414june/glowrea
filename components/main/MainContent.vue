@@ -35,19 +35,21 @@ const containerClass = computed(() => {
         'backdrop-blur': !getPreferences(userSettings, 'optimizeForLowPerformanceDevice'),
       }"
     >
-      <div flex justify-between px5 py2 :class="{ 'xl:hidden': $route.name !== 'tag' }" class="native:xl:flex" border="b base">
-        <div flex gap-3 items-center :overflow-hidden="!noOverflowHidden ? '' : false" py2 w-full>
-          <NuxtLink
-            v-if="backOnSmallScreen || back" flex="~ gap1" items-center btn-text p-0 xl:hidden
-            :aria-label="$t('nav.back')"
-            @click="$router.go(-1)"
-          >
-            <div i-ri:arrow-left-line class="rtl-flip" />
-          </NuxtLink>
-          <div :truncate="!noOverflowHidden ? '' : false" flex w-full data-tauri-drag-region class="native-mac:justify-start native-mac:text-center">
-            <slot name="title" />
+      <div flex justify-between pe5 py2 :class="{ 'xl:hidden': $route.name !== 'tag' }" class="native:xl:flex" border="b base">
+        <div flex gap-3 items-center :overflow-hidden="!noOverflowHidden ? '' : false" w-full>
+          <div flex items-center :overflow-hidden="!noOverflowHidden ? '' : false" w-full>
+            <NuxtLink
+              v-if="backOnSmallScreen || back" flex="~ gap1" ps5 pe3 py2 items-center btn-text p-0 xl:hidden
+              :aria-label="$t('nav.back')"
+              @click="$router.go(-1)"
+            >
+              <div i-ri:arrow-left-line class="rtl-flip" />
+            </NuxtLink>
+            <div :truncate="!noOverflowHidden ? '' : false" flex w-full data-tauri-drag-region class="native-mac:justify-start native-mac:text-center">
+              <slot name="title" />
+            </div>
+            <div sm:hidden h-7 w-1px />
           </div>
-          <div sm:hidden h-7 w-1px />
         </div>
         <div flex items-center flex-shrink-0 gap-x-2>
           <slot name="actions" />

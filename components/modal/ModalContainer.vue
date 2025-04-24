@@ -13,6 +13,7 @@ import {
   isPublishDialogOpen,
   isReportDialogOpen,
   isSigninDialogOpen,
+  isSwitchServerDialogOpen,
 } from '~/composables/dialog'
 
 const isMac = useIsMac()
@@ -57,6 +58,9 @@ function handleFavouritedBoostedByClose() {
   <template v-if="isHydrated">
     <ModalDialog v-model="isSigninDialogOpen" py-4 px-8 max-w-125>
       <UserSignIn />
+    </ModalDialog>
+    <ModalDialog v-model="isSwitchServerDialogOpen" py-4 px-8 max-w-125>
+      <UserSwitchServer />
     </ModalDialog>
     <ModalDialog v-model="isPreviewHelpOpen" keep-alive max-w-125>
       <HelpPreview @close="closePreviewHelp()" />

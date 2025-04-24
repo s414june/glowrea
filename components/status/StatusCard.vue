@@ -70,7 +70,7 @@ const forceShow = ref(false)
 <template>
   <StatusLink :status="status" :hover="hover">
     <!-- Upper border -->
-    <div :h="showUpperBorder ? '1px' : '0'" w-auto bg-border mb-1 z--1 />
+    <div :h="showUpperBorder ? '1px' : '0'" w-auto bg-border z--1 />
 
     <slot name="meta">
       <!-- Pinned status -->
@@ -90,7 +90,7 @@ const forceShow = ref(false)
           v-if="showReplyTo" m="is-5" p="t-1 is-5" :status="status" :is-self-reply="isSelfReply"
           :class="inNotification ? 'text-secondary-light' : ''"
         />
-        <div flex="~ col gap-1" items-center pos="absolute top-0 inset-is-0" w="77px" z--1>
+        <div flex="~ col gap-1" items-center pos="absolute top-0 inset-is-0" w="55px" md:w="60px" z--1>
           <template v-if="showReplyTo">
             <div w="1px" h="0.5" border="x base" mt-3 />
             <div w="1px" h="0.5" border="x base" />
@@ -148,8 +148,8 @@ const forceShow = ref(false)
             </NuxtLink>
           </AccountHoverWrapper>
 
-          <div v-if="connectReply" w-full h-full flex mt--3px justify-center>
-            <div w-1px border="x base" mb-9 />
+          <div v-if="connectReply" w-full h-full flex justify-center>
+            <div w-1px border="x base" mb-8 />
           </div>
         </div>
 

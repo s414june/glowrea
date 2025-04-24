@@ -66,6 +66,7 @@
     "save_changes": "Cadw newidiadau",
     "sign_in": "Mewngofnodi",
     "switch_account": "Newid cyfrif",
+    "switch_server": "Gweinydd Newid",
     "vote": "Pleidleisio"
   },
   "app_desc_short": "Cleient gwe ystwyth ar gyfer Mastodon",
@@ -466,7 +467,8 @@
     "sign_in_notice_title": "Yn gweld data cyhoeddus {0}",
     "sign_out_account": "Allgofnodi o {0}",
     "tip_no_account": "Os nas oes genych gyfrif Mastodon eto, {0}.",
-    "tip_register_account": "dewiswch eich gweinydd a chofrestrwch"
+    "tip_register_account": "dewiswch eich gweinydd a chofrestrwch",
+    "tip_search_server": "Ewch i gyfeiriadur Mastodon ac archwiliwch achosion yr hoffech chi efallai."
   },
   "visibility": {
     "direct": "Uniongyrchol",

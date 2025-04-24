@@ -1,1 +1,8 @@
-{}
+{
+  "action": {
+    "switch_server": "تبديل الخادم"
+  },
+  "user": {
+    "tip_search_server": "انتقل إلى دليل Mastodon واستكشف الحالات التي قد ترغب فيها."
+  }
+}

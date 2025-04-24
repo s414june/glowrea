@@ -29,7 +29,8 @@
     "enter_app": "Ingresar",
     "favourite": "Marcar como favorita",
     "reset": "Resetear",
-    "switch_account": "Cambiar de cuenta"
+    "switch_account": "Cambiar de cuenta",
+    "switch_server": "Servidor de cambio"
   },
   "app_logo": "Logo de Elk",
   "attachment": {
@@ -207,6 +208,7 @@
     "change_content_visibility": "Cambiar visibilidad"
   },
   "user": {
-    "add_existing": "Añadir una cuenta existente"
+    "add_existing": "Añadir una cuenta existente",
+    "tip_search_server": "Vaya al directorio de Mastodon y explore las instancias que le gusten."
   }
 }

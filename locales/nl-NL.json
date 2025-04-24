@@ -85,6 +85,7 @@
     "sign_in": "Inloggen",
     "sign_in_to": "Inloggen bij {0}",
     "switch_account": "Wissel van account",
+    "switch_server": "Schakel server",
     "vote": "Stemmen"
   },
   "app_desc_short": "Een vlotte Mastodon web client",
@@ -740,7 +741,8 @@
     "sign_out_account": "Uitloggen {0}",
     "single_instance_sign_in_desc": "Log in om profielen of tags te volgen, te bookmarken, te delen en te reageren op berichten.",
     "tip_no_account": "Als je nog geen Mastodon account hebt, {0}.",
-    "tip_register_account": "kies jouw server en registreer een account"
+    "tip_register_account": "kies jouw server en registreer een account",
+    "tip_search_server": "Ga naar de mastodon -directory en verken instanties die je misschien leuk vindt."
   },
   "visibility": {
     "direct": "Direct",

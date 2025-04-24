@@ -84,6 +84,7 @@
     "sign_in": "Anmelden",
     "sign_in_to": "Anmelden bei {0}",
     "switch_account": "Account wechseln",
+    "switch_server": "Server wechseln",
     "vote": "Abstimmen"
   },
   "actions": {
@@ -750,7 +751,8 @@
     "sign_out_account": "{0} abmelden",
     "single_instance_sign_in_desc": "Melde dich an, um Profile oder Hashtags zu verfolgen, Beiträge zu favorisieren, zu teilen und darauf zu antworten.",
     "tip_no_account": "Wenn du noch kein Mastodon-Konto hast, {0}.",
-    "tip_register_account": "wähle einen Server aus und registriere einen"
+    "tip_register_account": "wähle einen Server aus und registriere einen",
+    "tip_search_server": "Gehen Sie zum Mastodon -Verzeichnis und erkunden Sie Fälle, die Ihnen gefallen könnten."
   },
   "visibility": {
     "direct": "Nur erwähnte Accounts",

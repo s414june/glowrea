@@ -6,7 +6,8 @@
   },
   "action": {
     "favourite": "Favourite",
-    "favourited": "Favourited"
+    "favourited": "Favourited",
+    "switch_server": "Switch Server"
   },
   "magic_keys": {
     "groups": {
@@ -62,6 +63,7 @@
   },
   "user": {
     "sign_in_desc": "Sign in to follow profiles or hashtags, favourite, share and reply to posts, or interact from your account on a different server.",
-    "single_instance_sign_in_desc": "Sign in to follow profiles or hashtags, favourite, share and reply to posts."
+    "single_instance_sign_in_desc": "Sign in to follow profiles or hashtags, favourite, share and reply to posts.",
+    "tip_search_server": "Go to the Mastodon directory and explore instances you might like."
   }
 }
