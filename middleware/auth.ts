@@ -32,7 +32,7 @@ function handleAuth(to: RouteLocationNormalized) {
   if (!currentUser.value) {
     if (to.path === '/home' && to.query['share-target'] !== undefined)
       return navigateTo('/share-target')
-    else
+    else if (!to.path.includes('/public/local'))
       return navigateTo(`/${currentServer.value}/public/local`)
   }
 

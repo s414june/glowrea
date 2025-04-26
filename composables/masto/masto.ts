@@ -13,16 +13,18 @@ export function createMasto() {
 }
 export type ElkMasto = ReturnType<typeof createMasto>
 
-const customClient = ref()
+const customServer = ref()
+const customSPath = ref()
 
-export function setCustomClient(server?: string) {
-  customClient.value = server
+export function setCustomClient(server?: string, path?: string) {
+  customServer.value = server
+  customSPath.value = path
 }
 
 export function useMasto() {
-  if (customClient.value) {
+  if (customServer.value && customSPath.value.includes('/public/local')) {
     const guestClient = createRestAPIClient({
-      url: `https://${customClient.value}`,
+      url: `https://${customServer.value}`,
     })
     const currentClient = {
       ...guestClient,

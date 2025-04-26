@@ -57,10 +57,10 @@ export default defineNuxtRouteMiddleware(async (to, from) => {
     console.error(err)
   }
 
-  const serverPath = to.fullPath.replace(`${server}/`, '')
-  if (serverPath === `/public/local`) {
-    return
-    // TODO: remove this when we have a better solution for public/local
-  }
-  return '/home'
+  // const serverPath = to.fullPath.replace(`${server}/`, '')
+  // if (serverPath === `/public/local`) {
+  // TODO: remove this when we have a better solution for public/local
+  // }
+
+  // return '/home'
 })
