@@ -1,7 +1,10 @@
 <script setup lang="ts">
 import type { mastodon } from 'masto'
 
-const paginator = useMastoClient().v1.timelines.public.list({ limit: 30, local: true })
+const route = useRoute()
+
+setCustomClient(route.params.server as string)
+const paginator = useMastoClient().v1.timelines.public.list({ limit: 30 })
 const stream = useStreaming(client => client.public.local.subscribe())
 function reorderAndFilter(items: mastodon.v1.Status[]) {
   return reorderedTimeline(items, 'public')

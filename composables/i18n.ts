@@ -58,14 +58,15 @@ export function useFormattedDateTime(
 }
 
 export function useTimeAgoOptions(short = false): UseTimeAgoOptions<false> {
-  const { d, t, n: fnf, locale } = useI18n()
+  // const { d, t, n: fnf, locale } = useI18n()
+  const { d, t } = useI18n()
   const prefix = short ? 'short_' : ''
 
   const fn = (n: number, past: boolean, key: string) => {
     return t(`time_ago_options.${prefix}${key}_${past ? 'past' : 'future'}`, n, {
-      named: {
-        v: fnf(n, 'smallCounting', locale.value),
-      },
+      // named: {
+      //   v: fnf(n, 'smallCounting', locale.value),
+      // },
     })
   }
 

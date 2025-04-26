@@ -13,9 +13,28 @@ export function createMasto() {
 }
 export type ElkMasto = ReturnType<typeof createMasto>
 
+const customClient = ref()
+
+export function setCustomClient(server?: string) {
+  customClient.value = server
+}
+
 export function useMasto() {
+  if (customClient.value) {
+    const guestClient = createRestAPIClient({
+      url: `https://${customClient.value}`,
+    })
+    const currentClient = {
+      ...guestClient,
+      client: shallowRef<mastodon.rest.Client>(guestClient),
+      streamingClient: shallowRef<mastodon.streaming.Client | undefined>(),
+    }
+    return currentClient as ElkMasto
+  }
+
   return useNuxtApp().$masto as ElkMasto
 }
+
 export function useMastoClient() {
   return useMasto().client.value
 }

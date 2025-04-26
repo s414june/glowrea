@@ -1,4 +1,5 @@
 export default defineNuxtRouteMiddleware(async (to, from) => {
+  console.warn(to, from)
   if (import.meta.server)
     return
 
@@ -58,6 +59,7 @@ export default defineNuxtRouteMiddleware(async (to, from) => {
 
   const serverPath = to.fullPath.replace(`${server}/`, '')
   if (serverPath === `/public/local`) {
+    return
     // TODO: remove this when we have a better solution for public/local
   }
   return '/home'

@@ -38,7 +38,7 @@ export default defineNuxtPlugin(({ $scrollToTop }) => {
   }
   whenever(logicAnd(isAuthenticated, notUsingInput, keys.c), defaultPublishDialog)
 
-  const instanceDomain = currentInstance.value ? getInstanceDomain(currentInstance.value) : 'm.webtoo.ls'
+  const instanceDomain = currentInstance.value ? getInstanceDomain(currentInstance.value) : 'mastodon.social'
   whenever(logicAnd(notUsingInput, useMagicSequence(['g', 'h'])), () => navigateTo('/home'))
   whenever(logicAnd(isAuthenticated, notUsingInput, useMagicSequence(['g', 'n'])), () => navigateTo('/notifications'))
   // TODO: always overridden by 'c' (compose) shortcut

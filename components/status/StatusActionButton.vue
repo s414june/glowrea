@@ -11,7 +11,7 @@ const { as = 'button', command, disabled, content, icon } = defineProps<{
   activeIcon?: string
   inactiveIcon?: string
   hover: string
-  elkGroupHover: string
+  glowreaGroupHover: string
   active?: boolean
   disabled?: boolean
   as?: string
@@ -64,8 +64,8 @@ useCommand({
       <div
         rounded-full p2
         v-bind="disabled ? {} : {
-          'glowrea-group-hover': elkGroupHover,
-          'group-focus-visible': elkGroupHover,
+          'glowrea-group-hover': glowreaGroupHover,
+          'group-focus-visible': glowreaGroupHover,
           'group-focus-visible:ring': '2 current',
         }"
       >
