@@ -1,4 +1,5 @@
 import type { MaybeRef, MaybeRefOrGetter, UseTimeAgoOptions } from '@vueuse/core'
+import numbro from 'numbro'
 
 const formatter = Intl.NumberFormat()
 
@@ -7,24 +8,39 @@ export function formattedNumber(num: number, useFormatter: Intl.NumberFormat = f
 }
 
 export function useHumanReadableNumber() {
-  const { n, locale } = useI18n()
+  function fn(num: number | string | undefined | null): string {
+    if (num === undefined || num === null || Number.isNaN(Number(num))) {
+      return '0'
+    }
 
-  const fn = (num: number) => {
-    return n(
-      num,
-      num < 10000
-        ? 'smallCounting'
-        : num < 1000000
-          ? 'kiloCounting'
-          : 'millionCounting',
-      locale.value,
-    )
-  }
+    const value = Number(num)
+
+    if (value < 1000) {
+      return Math.floor(value).toString()
+    }
+    else {
+      return numbro(value).format('0.0a').toUpperCase() // 重點：加上 toUpperCase()
+    }
+  };
+
+  function formatPercentageFn(num: number | string | undefined | null): string {
+    if (num === undefined || num === null || Number.isNaN(Number(num))) {
+      return '0%'
+    }
+
+    const value = Number(num)
+
+    return numbro(value).format({
+      output: 'percent',
+      mantissa: 1, // 小數點後保留 1 位
+      spaceSeparated: false, // 不要加奇怪的空格
+    })
+  };
 
   return {
     formatHumanReadableNumber: (num: MaybeRef<number>) => fn(unref(num)) || num,
-    formatNumber: (num: MaybeRef<number>) => n(unref(num), 'smallCounting', locale.value) || num,
-    formatPercentage: (num: MaybeRef<number>) => n(unref(num), 'percentage', locale.value) || num,
+    formatNumber: (num: MaybeRef<number>) => fn(unref(num)) || num,
+    formatPercentage: (num: MaybeRef<number>) => formatPercentageFn(unref(num)) || num,
     forSR: (num: MaybeRef<number>) => unref(num) > 10000,
   }
 }
