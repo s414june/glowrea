@@ -9,6 +9,7 @@ const stream = useStreaming(client => client.public.local.subscribe())
 function reorderAndFilter(items: mastodon.v1.Status[]) {
   return reorderedTimeline(items, 'public')
 }
+setCustomClient()
 </script>
 
 <template>

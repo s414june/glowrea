@@ -2,21 +2,15 @@
 import type { mastodon } from 'masto'
 
 const { isSupported, effectiveType } = useNetwork()
-const route = useRoute()
 const isSlow = computed(() => isSupported.value && effectiveType.value && ['slow-2g', '2g', '3g'].includes(effectiveType.value))
 const limit = computed(() => isSlow.value ? 10 : 30)
 
-const paginator = ref()
-const stream = ref()
 function reorderAndFilter(items: mastodon.v1.Status[]) {
   return reorderedTimeline(items, 'home')
 }
 
-watch(() => route.fullPath, async () => {
-  setCustomClient()
-  paginator.value = useMastoClient().v1.timelines.home.list({ limit: limit.value })
-  stream.value = useStreaming(client => client.user.subscribe())
-}, { immediate: true })
+const paginator = useMastoClient().v1.timelines.home.list({ limit: limit.value })
+const stream = useStreaming(client => client.user.subscribe())
 </script>
 
 <template>
