@@ -43,7 +43,7 @@ const modelValue = defineModel<boolean>({ required: true })
       </i18n-t>
     </p>
     <p py-2>
-      <NuxtLink font-bold text-primary href="https://github.com/elk-zone/elk" target="_blank" flex="~ row" items-center gap-x-2>
+      <NuxtLink font-bold text-primary href="https://github.com/s414june/glowrea" target="_blank" flex="~ row" items-center gap-x-2>
         {{ $t('settings.notifications.push_notifications.subscription_error.repo_link') }}
         <span inline-block aria-hidden="true" i-ri:external-link-line class="rtl-flip" />
       </NuxtLink>

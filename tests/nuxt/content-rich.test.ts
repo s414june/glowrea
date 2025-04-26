@@ -1,7 +1,7 @@
 /* eslint perfectionist/sort-imports: "off" */
 // to prevent error when importing '@nuxt/test-utils/runtime' before 'vitest'
 // ref. #2984 chore(deps): update dependency @antfu/eslint-config to v3 by renovate[bot]
-// https://github.com/elk-zone/elk/pull/2984
+// https://github.com/s414june/glowrea/pull/2984
 
 import type { mastodon } from 'masto'
 import { format } from 'prettier'

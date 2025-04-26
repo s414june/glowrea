@@ -270,7 +270,7 @@ export default defineNuxtConfig({
         { property: 'og:title', content: 'Glowrea' },
         { property: 'og:description', content: '光景，讓Mastodon景致——如光流動' },
         { property: 'og:type', content: 'website' },
-        { property: 'og:image', content: 'https://elk.zone/elk-og.png' },
+        { property: 'og:image', content: 'https://glowrea.vercel.app/glowrea.png' },
         { property: 'og:image:width', content: '3800' },
         { property: 'og:image:height', content: '1900' },
         { property: 'og:site_name', content: 'Glowrea' },
@@ -348,7 +348,7 @@ declare module '#app' {
   }
 
   interface RuntimeNuxtHooks {
-    'elk-logo:click': () => void
+    'glowrea-logo:click': () => void
   }
 }
 

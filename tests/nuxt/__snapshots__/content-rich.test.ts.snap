@@ -470,5 +470,5 @@ exports[`content-rich > shows some collapsed mentions inline 1`] = `
 
 exports[`editor > transform mentions 1`] = `
 "
-@elk Hello"
+@glowrea Hello"
 `;

@@ -10,7 +10,6 @@ dist
 .vite-inspect
 .netlify/
 .eslintcache
-elk-translation-status.json
 
 public/emojis
 

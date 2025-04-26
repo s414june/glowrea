@@ -1,7 +1,7 @@
 FROM docker.io/library/node:lts-alpine AS base
 
 # Prepare work directory
-WORKDIR /elk
+WORKDIR /glowrea
 
 FROM base AS builder
 
@@ -38,23 +38,23 @@ ARG GID=911
 
 # Create a dedicated user and group
 RUN set -eux; \
-    addgroup -g $GID elk; \
-    adduser -u $UID -D -G elk elk;
+    addgroup -g $GID glowrea; \
+    adduser -u $UID -D -G glowrea glowrea;
 
-USER elk
+USER glowrea
 
 ENV NODE_ENV=production
 
-COPY --from=builder /elk/.output ./.output
+COPY --from=builder /glowrea/.output ./.output
 
 EXPOSE 5314/tcp
 
 ENV PORT=5314
 
 # Specify container only environment variables ( can be overwritten by runtime env )
-ENV NUXT_STORAGE_FS_BASE='/elk/data'
+ENV NUXT_STORAGE_FS_BASE='/glowrea/data'
 
 # Persistent storage data
-VOLUME [ "/elk/data" ]
+VOLUME [ "/glowrea/data" ]
 
 CMD ["node", ".output/server/index.mjs"]

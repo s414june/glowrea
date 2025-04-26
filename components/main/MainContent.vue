@@ -26,7 +26,7 @@ const containerClass = computed(() => {
 
 <template>
   <div ref="container" :class="containerClass">
-    <div w-full h-14 position-relative block sm:hidden>
+    <div v-if="!(backOnSmallScreen || back)" w-full h-14 position-relative block sm:hidden>
       <NavMobileTitle />
     </div>
     <div
@@ -36,10 +36,10 @@ const containerClass = computed(() => {
       }"
     >
       <div
-        flex justify-between pe5 py2 :class="{ 'xl:hidden': $route.name !== 'tag' }" class="native:xl:flex"
+        flex justify-between pe5 py2 :class="{ 'xl:hidden': $route.name !== 'tag', 'ps5': !(backOnSmallScreen || back) }" class="native:xl:flex"
         border="b base"
       >
-        <div flex ps-5 gap-3 items-center :overflow-hidden="!noOverflowHidden ? '' : false" w-full>
+        <div flex gap-3 items-center :overflow-hidden="!noOverflowHidden ? '' : false" w-full>
           <div flex items-center :overflow-hidden="!noOverflowHidden ? '' : false" w-full>
             <NuxtLink
               v-if="backOnSmallScreen || back" flex="~ gap1" ps5 pe3 py2 items-center btn-text p-0 xl:hidden

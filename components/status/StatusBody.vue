@@ -32,7 +32,7 @@ const vnode = computed(() => {
   <div class="status-body" whitespace-pre-wrap break-words :class="{ 'with-action': withAction }" relative>
     <span
       v-if="status.content"
-      class="content-rich line-compact" dir="auto"
+      class="content-rich line-compact flex flex-col" dir="auto"
       :lang="('language' in status && status.language) || undefined"
     >
       <component :is="vnode" v-if="vnode" />

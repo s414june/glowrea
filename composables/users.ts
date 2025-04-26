@@ -320,7 +320,7 @@ export function useUserLocalStorage<T extends object>(key: string, initial: () =
 
         // Backward compatibility, respect webDomain in acct
         // In previous versions, acct was username@server instead of username@webDomain
-        // for example: elk@m.webtoo.ls instead of elk@webtoo.ls
+        // for example: glowrea@m.webtoo.ls instead of glowrea@webtoo.ls
         if (!all.value[id]) {
           const [username, webDomain] = id.split('@')
           const server = currentServer.value

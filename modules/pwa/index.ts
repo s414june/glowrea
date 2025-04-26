@@ -25,7 +25,7 @@ interface ResolvedPwaDevIcon extends PwaDevIcon {
 
 export default defineNuxtModule<VitePWANuxtOptions>({
   meta: {
-    name: 'elk-pwa',
+    name: 'glowrea-pwa',
     configKey: 'pwa',
   },
   defaults: nuxt => ({
@@ -90,7 +90,7 @@ export default defineNuxtModule<VitePWANuxtOptions>({
       }
       if (isClient) {
         viteInlineConfig.plugins.push({
-          name: 'elk:pwa:locales:build',
+          name: 'glowrea:pwa:locales:build',
           apply: 'build',
           async writeBundle(_options, bundle) {
             if (options.disable || !bundle)
@@ -102,7 +102,7 @@ export default defineNuxtModule<VitePWANuxtOptions>({
         })
       }
       viteInlineConfig.plugins.push({
-        name: 'elk:pwa:dev',
+        name: 'glowrea:pwa:dev',
         apply: 'serve',
         configureServer(server) {
           const icons: PwaDevIcon[] = webmanifests?.['en-US']?.icons as any
@@ -203,7 +203,7 @@ export default defineNuxtModule<VitePWANuxtOptions>({
             'Cache-Control': 'public, max-age=0, must-revalidate',
           },
         }
-        nitroConfig.routeRules!['/elk-sw.js'] = {
+        nitroConfig.routeRules!['/glowrea-sw.js'] = {
           headers: {
             'Cache-Control': 'public, max-age=0, must-revalidate',
           },

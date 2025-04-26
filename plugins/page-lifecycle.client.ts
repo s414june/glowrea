@@ -1,6 +1,6 @@
 import lifecycle from 'page-lifecycle/dist/lifecycle.mjs'
 import { ELK_PAGE_LIFECYCLE_FROZEN } from '~/constants'
-import { closeDatabases } from '~/utils/elk-idb'
+import { closeDatabases } from '~/utils/glowrea-idb'
 
 export default defineNuxtPlugin(() => {
   const state = ref(lifecycle.state)

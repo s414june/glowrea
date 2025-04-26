@@ -137,7 +137,7 @@ function showFavoritedAndBoostedBy() {
       :content="$t('action.more')"
       color="text-primary"
       hover="text-primary"
-      elk-group-hover="bg-primary-light"
+      glowrea-group-hover="bg-primary-light"
       icon="i-ri:more-line"
       my--2
     />

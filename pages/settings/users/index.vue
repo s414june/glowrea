@@ -27,7 +27,7 @@ async function exportTokens() {
     'users': loggedInUsers.value,
   }
   const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json;charset=utf-8' })
-  saveAs(blob, `elk-users-tokens-${new Date().toISOString().slice(0, 10)}.json`)
+  saveAs(blob, `glowrea-users-tokens-${new Date().toISOString().slice(0, 10)}.json`)
 }
 
 async function importTokens() {

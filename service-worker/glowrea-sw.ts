@@ -43,7 +43,7 @@ if (import.meta.env.PROD) {
     /^\/emojis\//,
     // exclude sw: if the user navigates to it, fallback to index.html
     /^\/sw.js$/,
-    /^\/elk-sw.js$/,
+    /^\/glowrea-sw.js$/,
     // exclude webmanifest: has its own cache
     /^\/manifest-(.*).webmanifest$/,
   ]
@@ -56,7 +56,7 @@ if (import.meta.env.PROD) {
     ({ request, sameOrigin }) =>
       sameOrigin && request.destination === 'manifest',
     new NetworkFirst({
-      cacheName: 'elk-webmanifest',
+      cacheName: 'glowrea-webmanifest',
       plugins: [
         new CacheableResponsePlugin({ statuses: [200] }),
         // we only need a few entries
@@ -71,7 +71,7 @@ if (import.meta.env.PROD) {
       && request.destination === 'image'
       && url.pathname.startsWith('/emojis/'),
     new StaleWhileRevalidate({
-      cacheName: 'elk-emojis',
+      cacheName: 'glowrea-emojis',
       plugins: [
         new CacheableResponsePlugin({ statuses: [200] }),
         // 15 days max
@@ -85,7 +85,7 @@ if (import.meta.env.PROD) {
   registerRoute(
     ({ sameOrigin, request }) => !sameOrigin && request.destination === 'image',
     new NetworkFirst({
-      cacheName: 'elk-external-media',
+      cacheName: 'glowrea-external-media',
       plugins: [
         // add opaque responses?
         new CacheableResponsePlugin({ statuses: [/!* 0, *!/200] }),
