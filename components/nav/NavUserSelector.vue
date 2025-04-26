@@ -1,17 +1,30 @@
 <script setup lang="ts">
 const { busy, oauth, singleInstanceServer } = useSignIn()
 
+const all = useUsers()
+const route = useRoute()
+
 function navigateToSignIn() {
   return navigateTo(`/${currentServer.value}`)
 }
+
+const includesUsers = computed(() => {
+  const targetServer = route.params.server
+  const targetUser = route.params.account
+  const current = currentUser.value?.account?.username
+
+  const isSameUser = current === targetUser
+  const isServerListed = all.value.some(user => user.server === targetServer)
+
+  return isServerListed && isSameUser
+})
 </script>
 
 <template>
   <VDropdown v-if="isHydrated && currentUser">
-    <div style="-webkit-touch-callout: none;" sm:hidden>
+    <div v-if="includesUsers" style="-webkit-touch-callout: none;" sm:hidden>
       <div i-ri:arrow-down-s-line text-sm text-secondary me--1 />
     </div>
-
     <template #popper="{ hide }">
       <UserSwitcher @click="hide()" />
     </template>

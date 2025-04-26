@@ -1,1 +1,9 @@
-{}
+{
+  "action": {
+    "switch_server": "Switch Server"
+  },
+  "app_desc_short": "GLOWREA - Deixe a paisagem mastodon fluir como luz.",
+  "user": {
+    "tip_search_server": "Vá para o diretório Mastodon e explore as instâncias que você pode gostar."
+  }
+}

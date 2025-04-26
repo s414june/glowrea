@@ -64,10 +64,10 @@ export default defineNuxtPlugin(async () => {
     defaults: { baseURL: config.app.baseURL },
   })
 
-  const route = useRoute()
-  if (route.path.startsWith('/api')) {
-    const result = (await ($fetch.raw as any)(route.fullPath)) as FetchResponse<unknown>
-    if (result.headers.get('location'))
-      location.href = result.headers.get('location')!
-  }
+  // const route = useRoute()
+  // if (route.path.startsWith('/api')) {
+  //   const result = (await ($fetch.raw as any)(route.fullPath)) as FetchResponse<unknown>
+  //   if (result.headers.get('location'))
+  //     location.href = result.headers.get('location')!
+  // }
 })

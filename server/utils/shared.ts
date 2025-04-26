@@ -5,7 +5,7 @@ import { env } from '#build-info'
 import { driver } from '#storage-config'
 import { $fetch } from 'ofetch'
 
-import kv from 'unstorage/drivers/cloudflare-kv-http'
+// import kv from 'unstorage/drivers/cloudflare-kv-http'
 
 import fs from 'unstorage/drivers/fs'
 
@@ -23,14 +23,14 @@ if (driver === 'fs') {
   const config = useRuntimeConfig()
   storage.mount('servers', fs({ base: config.storage.fsBase }))
 }
-else if (driver === 'cloudflare') {
-  const config = useRuntimeConfig()
-  storage.mount('servers', cached(kv({
-    accountId: config.cloudflare.accountId,
-    namespaceId: config.cloudflare.namespaceId,
-    apiToken: config.cloudflare.apiToken,
-  })))
-}
+// else if (driver === 'cloudflare') {
+//   const config = useRuntimeConfig()
+//   storage.mount('servers', cached(kv({
+//     accountId: config.cloudflare.accountId,
+//     namespaceId: config.cloudflare.namespaceId,
+//     apiToken: config.cloudflare.apiToken,
+//   })))
+// }
 else if (driver === 'vercel') {
   const config = useRuntimeConfig()
   storage.mount('servers', cached(vercelKVDriver({

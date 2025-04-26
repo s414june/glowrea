@@ -85,11 +85,12 @@
     "sign_in": "Sign in",
     "sign_in_to": "Sign in to {0}",
     "switch_account": "Switch account",
+    "switch_server": "Switch Server",
     "vote": "Vote"
   },
-  "app_desc_short": "A nimble Mastodon web client",
-  "app_logo": "Elk Logo",
-  "app_name": "Elk",
+  "app_desc_short": "Glowrea — Let the Mastodon landscape flow like light.",
+  "app_logo": "Glowrea Logo",
+  "app_name": "Glowrea",
   "attachment": {
     "edit_title": "Description",
     "remove_label": "Remove attachment"
@@ -193,20 +194,20 @@
   },
   "help": {
     "build_preview": {
-      "desc1": "You are currently viewing a preview version of Elk from the community - {0}.",
+      "desc1": "You are currently viewing a preview version of Glowrea from the community - {0}.",
       "desc2": "It may contain unreviewed or even malicious changes.",
       "desc3": "Don't log in with your real account.",
       "title": "Preview deploy"
     },
     "desc_highlight": "Expect some bugs and missing features here and there.",
-    "desc_para1": "Elk is a nimble Mastodon web client. You can login to your Mastodon account and use it to interact with the fediverse.",
-    "desc_para2": "Elk is Open Source and we're actively improving it as a community project. Join us and let's build it together!",
-    "desc_para3": "To boost development, you can sponsor the Team through GitHub Sponsors. We hope you enjoy Elk!",
+    "desc_para1": "Glowrea is a nimble Mastodon web client. You can login to your Mastodon account and use it to interact with the fediverse.",
+    "desc_para2": "Glowrea is Open Source and we're actively improving it as a community project. Join us and let's build it together!",
+    "desc_para3": "To boost development, you can sponsor the Team through GitHub Sponsors. We hope you enjoy Glowrea!",
     "desc_para4": "If you'd like to report a bug, help us testing, give feedback, or contribute,",
     "desc_para5": "reach out to us on GitHub",
     "desc_para6": "and get involved.",
-    "footer_team": "The Elk Team",
-    "title": "Welcome to Elk!"
+    "footer_team": "The Glowrea Team",
+    "title": "Welcome to Glowrea!"
   },
   "language": {
     "search": "Search"
@@ -367,34 +368,34 @@
   "pwa": {
     "dismiss": "Dismiss",
     "install": "Install",
-    "install_title": "Install Elk",
+    "install_title": "Install Glowrea",
     "screenshots": {
-      "dark": "Screenshot of Elk running in dark mode",
-      "light": "Screenshot of Elk running in light mode"
+      "dark": "Screenshot of Glowrea running in dark mode",
+      "light": "Screenshot of Glowrea running in light mode"
     },
-    "title": "New Elk update available!",
+    "title": "New Glowrea update available!",
     "update": "Update",
-    "update_available_short": "Update Elk",
+    "update_available_short": "Update Glowrea",
     "webmanifest": {
       "canary": {
-        "description": "A nimble Mastodon web client (canary)",
+        "description": "光景，讓Mastodon景致——如光流動 (canary)",
         "name": "Glowrea",
         "short_name": "Glowrea"
       },
       "dev": {
-        "description": "A nimble Mastodon web client (dev)",
-        "name": "Elk (dev)",
-        "short_name": "Elk (dev)"
+        "description": "光景，讓Mastodon景致——如光流動 (dev)",
+        "name": "Glowrea (dev)",
+        "short_name": "Glowrea (dev)"
       },
       "preview": {
-        "description": "A nimble Mastodon web client (preview)",
-        "name": "Elk (preview)",
-        "short_name": "Elk (preview)"
+        "description": "光景，讓Mastodon景致——如光流動 (preview)",
+        "name": "Glowrea (preview)",
+        "short_name": "Glowrea (preview)"
       },
       "release": {
-        "description": "A nimble Mastodon web client",
-        "name": "Elk",
-        "short_name": "Elk"
+        "description": "光景，讓Mastodon景致——如光流動",
+        "name": "Glowrea",
+        "short_name": "Glowrea"
       }
     }
   },
@@ -444,10 +445,10 @@
       "label": "About",
       "meet_the_team": "Meet the team",
       "sponsor_action": "Sponsor us",
-      "sponsor_action_desc": "To support the team developing Elk",
+      "sponsor_action_desc": "To support the team developing Glowrea",
       "sponsors": "Sponsors",
-      "sponsors_body_1": "Elk is made possible thanks the generous sponsoring and help of:",
-      "sponsors_body_2": "And all the companies and individuals sponsoring Elk Team and the members.",
+      "sponsors_body_1": "Glowrea is made possible thanks the generous sponsoring and help of:",
+      "sponsors_body_2": "And all the companies and individuals sponsoring Glowrea Team and the members.",
       "sponsors_body_3": "If you're enjoying the app, consider sponsoring us:",
       "version": "Version"
     },
@@ -495,7 +496,7 @@
           "reblog": "Boosts",
           "title": "What notifications to receive?"
         },
-        "description": "Receive notifications even when you are not using Elk.",
+        "description": "Receive notifications even when you are not using Glowrea.",
         "instructions": "Don't forget to save your changes using @:settings.notifications.push_notifications.save_settings button!",
         "label": "Push notifications settings",
         "policy": {
@@ -511,10 +512,10 @@
           "error_hint": "You can consult a list of frequently asked questions to try to solve the problem: {0}.",
           "invalid_vapid_key": "The VAPID public key seems to be invalid.",
           "permission_denied": "Permission denied: enable notifications in your browser.",
-          "repo_link": "Elk's repository in GitHub",
-          "request_error": "An error occurred while requesting the subscription, try again and if the error persists, please report the issue to the Elk repository.",
+          "repo_link": "Glowrea's repository in GitHub",
+          "request_error": "An error occurred while requesting the subscription, try again and if the error persists, please report the issue to the Glowrea repository.",
           "title": "Could not subscribe to push notifications",
-          "too_many_registrations": "Due to browser limitations, Elk cannot use the push notifications service for multiple accounts on different servers. You should unsubscribe from push notifications on another account and try again.",
+          "too_many_registrations": "Due to browser limitations, Glowrea cannot use the push notifications service for multiple accounts on different servers. You should unsubscribe from push notifications on another account and try again.",
           "vapid_not_supported": "Your browser supports Web Push Notifications, but does not seem to implement the VAPID protocol."
         },
         "title": "Push notifications settings",
@@ -523,10 +524,10 @@
         "unsupported": "Your browser does not support push notifications.",
         "warning": {
           "enable_close": "Close",
-          "enable_description": "To receive notifications when Elk is not open, enable push notifications. You can control precisely what types of interactions generate push notifications via the \"@:settings.notifications.show_btn{'\"'} button above once enabled.",
-          "enable_description_desktop": "To receive notifications when Elk is not open, enable push notifications. You can control precisely what types of interactions generate push notifications in \"Settings > Notifications > Push notifications settings\" once enabled.",
+          "enable_description": "To receive notifications when Glowrea is not open, enable push notifications. You can control precisely what types of interactions generate push notifications via the \"@:settings.notifications.show_btn{'\"'} button above once enabled.",
+          "enable_description_desktop": "To receive notifications when Glowrea is not open, enable push notifications. You can control precisely what types of interactions generate push notifications in \"Settings > Notifications > Push notifications settings\" once enabled.",
           "enable_description_mobile": "You can also access the settings using the navigation menu \"Settings > Notifications > Push notification settings\".",
-          "enable_description_settings": "To receive notifications when Elk is not open, enable push notifications. You will be able to control precisely what types of interactions generate push notifications on this same screen once you enable them.",
+          "enable_description_settings": "To receive notifications when Glowrea is not open, enable push notifications. You will be able to control precisely what types of interactions generate push notifications on this same screen once you enable them.",
           "enable_desktop": "Enable push notifications",
           "enable_title": "Never miss anything",
           "re_auth": "It seems that your server does not support push notifications. Try sign out and sign in again, if this message still appears contact your server administrator."
@@ -598,9 +599,9 @@
     }
   },
   "share_target": {
-    "description": "Elk can be configured so that you can share content from other applications, simply install Elk on your device or computer and sign in.",
-    "hint": "In order to share content with Elk, Elk must be installed and you must be signed in.",
-    "title": "Share with Elk"
+    "description": "Glowrea can be configured so that you can share content from other applications, simply install Glowrea on your device or computer and sign in.",
+    "hint": "In order to share content with Glowrea, Glowrea must be installed and you must be signed in.",
+    "title": "Share with Glowrea"
   },
   "state": {
     "attachments_exceed_server_limit": "The number of attachments exceeded the limit per post.",
@@ -755,7 +756,8 @@
     "sign_out_account": "Sign out {0}",
     "single_instance_sign_in_desc": "Sign in to follow profiles or hashtags, favorite, share and reply to posts.",
     "tip_no_account": "If you don't have a Mastodon account yet, {0}.",
-    "tip_register_account": "pick your server and register one"
+    "tip_register_account": "pick your server and register one",
+    "tip_search_server": "Go to the Mastodon directory and explore instances you might like."
   },
   "visibility": {
     "direct": "Direct",

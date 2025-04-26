@@ -65,11 +65,12 @@
     "sign_in": "로그인",
     "sign_in_to": "{0}에 로그인",
     "switch_account": "계정 전환",
+    "switch_server": "스위치 서버",
     "vote": "투표"
   },
-  "app_desc_short": "민첩한 마스토돈 웹 클라이언트",
-  "app_logo": "Elk 로고",
-  "app_name": "Elk",
+  "app_desc_short": "Glowrea - Mastodon 풍경이 빛처럼 흐르도록하십시오.",
+  "app_logo": "Glowrea 로고",
+  "app_name": "Glowrea",
   "attachment": {
     "edit_title": "설명",
     "remove_label": "첨부파일 삭제"
@@ -136,7 +137,7 @@
   },
   "help": {
     "build_preview": {
-      "desc1": "당신은 현재 커뮤니티로부터 기여된 Elk 미리보기 버전(버전 번호: {0})을 보고 있습니다.",
+      "desc1": "당신은 현재 커뮤니티로부터 기여된 Glowrea 미리보기 버전(버전 번호: {0})을 보고 있습니다.",
       "desc2": "검토되지 않았거나 악의적인 변경 사항이 포함되어 있을 수 있습니다.",
       "desc3": "당신의 실제 계정으로 로그인하지 마세요.",
       "title": "미리보기 배포"
@@ -148,7 +149,7 @@
     "desc_para4": "Elk는 오픈소스입니다. 만약 테스트, 피드백 제공 또는 기여를 돕고 싶으시다면,",
     "desc_para5": "우리의 깃허브에 들어가서",
     "desc_para6": "참여하세요.",
-    "footer_team": "The Elk Team",
+    "footer_team": "The Glowrea Team",
     "title": "Elk는 현재 미리보기 입니다!"
   },
   "language": {
@@ -272,30 +273,30 @@
   "pwa": {
     "dismiss": "설치하지 않기",
     "install": "설치",
-    "install_title": "Elk 설치",
-    "title": "새로운 Elk 업데이트가 가능합니다!",
+    "install_title": "Glowrea 설치",
+    "title": "새로운 Glowrea 업데이트가 가능합니다!",
     "update": "업데이트",
-    "update_available_short": "업데이트 Elk",
+    "update_available_short": "업데이트 Glowrea",
     "webmanifest": {
       "canary": {
         "description": "민첩한 마스토돈 웹 클라이언트(카나리)",
-        "name": "Elk (카나리)",
-        "short_name": "Elk (카나리)"
+        "name": "Glowrea (카나리)",
+        "short_name": "Glowrea (카나리)"
       },
       "dev": {
         "description": "민첩한 마스토돈 웹 클라이언트(개발)",
-        "name": "Elk (개발)",
-        "short_name": "Elk (개발)"
+        "name": "Glowrea (개발)",
+        "short_name": "Glowrea (개발)"
       },
       "preview": {
         "description": "민첩한 마스토돈 웹 클라이언트(미리보기)",
-        "name": "Elk (미리보기)",
-        "short_name": "Elk (미리보기)"
+        "name": "Glowrea (미리보기)",
+        "short_name": "Glowrea (미리보기)"
       },
       "release": {
         "description": "민첩한 마스토돈 웹 클라이언트",
-        "name": "Elk",
-        "short_name": "Elk"
+        "name": "Glowrea",
+        "short_name": "Glowrea"
       }
     }
   },
@@ -309,10 +310,10 @@
       "label": "Elk에 대하여",
       "meet_the_team": "팀과 만나기",
       "sponsor_action": "우리를 지원하기",
-      "sponsor_action_desc": "Elk 개발팀을 위해 지원하기",
+      "sponsor_action_desc": "Glowrea 개발팀을 위해 지원하기",
       "sponsors": "스폰서",
       "sponsors_body_1": "Elk는 다음과 같은 분들의 아낌없는 후원과 도움 덕분에 가능했습니다:",
-      "sponsors_body_2": "그리고 Elk 팀과 멤버들을 후원하는 모든 기업과 개인에게도 감사드립니다",
+      "sponsors_body_2": "그리고 Glowrea 팀과 멤버들을 후원하는 모든 기업과 개인에게도 감사드립니다",
       "sponsors_body_3": "앱을 즐기고 계신다면 후원을 고려해 보세요:",
       "version": "버전"
     },
@@ -544,7 +545,8 @@
     "sign_out_account": "{0} 계정 로그아웃",
     "single_instance_sign_in_desc": "로그인해서 프로필을 팔로우하거나 해시태그, 좋아요, 게시물을 공유하고 답글을 달 수 있습니다.",
     "tip_no_account": "만약 마스토돈 계정을 가지고 있지 않는 경우, {0}.",
-    "tip_register_account": "서버를 선택하고 계정을 만드세요"
+    "tip_register_account": "서버를 선택하고 계정을 만드세요",
+    "tip_search_server": "Mastodon 디렉토리로 이동하여 원하는 인스턴스를 탐색하십시오."
   },
   "visibility": {
     "direct": "다이렉트",

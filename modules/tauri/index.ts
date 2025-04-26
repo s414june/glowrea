@@ -24,7 +24,7 @@ export default defineNuxtModule({
     nuxt.options.alias = {
       ...nuxt.options.alias,
       'unstorage/drivers/fs': mockProxy,
-      'unstorage/drivers/cloudflare-kv-http': mockProxy,
+      // 'unstorage/drivers/cloudflare-kv-http': mockProxy,
       '#storage-config': resolve('./runtime/storage-config'),
       'node:events': 'unenv/runtime/node/events/index',
       '#build-info': resolve('./runtime/build-info'),

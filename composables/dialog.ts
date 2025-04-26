@@ -17,6 +17,7 @@ export const reportStatus = ref<mastodon.v1.Status>()
 export const commandPanelInput = ref('')
 
 export const isSigninDialogOpen = ref(false)
+export const isSwitchServerDialogOpen = ref(false)
 export const isPublishDialogOpen = ref(false)
 export const isKeyboardShortcutsDialogOpen = ref(false)
 export const isMediaPreviewOpen = ref(false)

@@ -1,6 +1,6 @@
 import type { mastodon } from 'masto'
 
-export const APP_NAME = 'Elk'
+export const APP_NAME = 'Glowrea'
 
 export const DEFAULT_POST_CHARS_LIMIT = 500
 export const DEFAULT_FONT_SIZE = '15px'
@@ -30,7 +30,7 @@ export const HANDLED_MASTO_URLS = /^(https?:\/\/)?([\w\-]+\.)+\w+\/(@[@\w\-.]+)(
 export const NOTIFICATION_FILTER_TYPES: mastodon.v1.NotificationType[] = ['status', 'reblog', 'follow', 'follow_request', 'favourite', 'poll', 'update', 'admin.sign_up', 'admin.report']
 
 export const THEME_COLORS = {
-  defaultTheme: '#cc7d24',
+  defaultTheme: '#0097fd',
   themeDark: '#111111',
   themeLight: '#fafafa',
   backgroundDark: '#fafafa',

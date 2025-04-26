@@ -4,8 +4,10 @@
   },
   "action": {
     "favourite": "Favourite",
-    "favourited": "Favourited"
+    "favourited": "Favourited",
+    "switch_server": "Switch Server"
   },
+  "app_desc_short": "Glowrea — Let the Mastodon landscape flow like light.",
   "magic_keys": {
     "groups": {
       "actions": {
@@ -51,6 +53,7 @@
   },
   "user": {
     "sign_in_desc": "Sign in to follow profiles or hashtags, favourite, share and reply to posts, or interact from your account on a different server.",
-    "single_instance_sign_in_desc": "Sign in to follow profiles or hashtags, favourite, share and reply to posts."
+    "single_instance_sign_in_desc": "Sign in to follow profiles or hashtags, favourite, share and reply to posts.",
+    "tip_search_server": "Go to the Mastodon directory and explore instances you might like."
   }
 }

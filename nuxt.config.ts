@@ -165,8 +165,7 @@ export default defineNuxtConfig({
       // We use LibreTranslate (https://github.com/LibreTranslate/LibreTranslate) as
       // our default translation server #76
       translateApi: '',
-      // Use the instance where Elk has its Mastodon account as the default
-      defaultServer: 'm.webtoo.ls',
+      defaultServer: 'mastodon.social',
       singleInstance: false,
     },
     storage: {
@@ -188,6 +187,7 @@ export default defineNuxtConfig({
     },
   },
   nitro: {
+    preset: 'vercel',
     alias: {
       'isomorphic-ws': mockProxy,
     },
@@ -267,14 +267,13 @@ export default defineNuxtConfig({
       meta: [
         { name: 'apple-mobile-web-app-status-bar-style', content: 'default' },
         // open graph social image
-        { property: 'og:title', content: 'Elk' },
-        { property: 'og:description', content: 'A nimble Mastodon web client' },
+        { property: 'og:title', content: 'Glowrea' },
+        { property: 'og:description', content: '光景，讓Mastodon景致——如光流動' },
         { property: 'og:type', content: 'website' },
         { property: 'og:image', content: 'https://elk.zone/elk-og.png' },
         { property: 'og:image:width', content: '3800' },
         { property: 'og:image:height', content: '1900' },
-        { property: 'og:site_name', content: 'Elk' },
-        { name: 'twitter:site', content: '@elk_zone' },
+        { property: 'og:site_name', content: 'Glowrea' },
         { name: 'twitter:card', content: 'summary_large_image' },
       ],
     },

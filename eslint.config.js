@@ -17,7 +17,6 @@ export default await antfu(
       'public-dev/**',
       'public-staging/**',
       'https-dev-config/**',
-      'elk-translation-status.json',
       'docs/translation-status.json',
     ],
   },

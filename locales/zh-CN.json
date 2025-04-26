@@ -85,9 +85,10 @@
     "sign_in": "登入",
     "sign_in_to": "登入 {0}",
     "switch_account": "切换帐号",
+    "switch_server": "开关服务器",
     "vote": "投票"
   },
-  "app_desc_short": "一个灵巧的 Mastodon 客户端",
+  "app_desc_short": "光景-让Mastodon景观像光一样流动。",
   "app_logo": "应用图标",
   "app_name": "光景",
   "attachment": {
@@ -749,7 +750,8 @@
     "sign_out_account": "登出 {0}",
     "single_instance_sign_in_desc": "登录后可关注其他人或标签、收藏、分享和回复帖文。",
     "tip_no_account": "如果您还没有 Mastodon 账户，{0}。",
-    "tip_register_account": "选择您的服务器并注册一个"
+    "tip_register_account": "选择您的服务器并注册一个",
+    "tip_search_server": "转到Mastodon目录，探索您可能喜欢的实例。"
   },
   "visibility": {
     "direct": "私信",
