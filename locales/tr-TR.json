@@ -76,9 +76,9 @@
     "switch_server": "Anahtar sunucusu",
     "vote": "Oy ver"
   },
-  "app_desc_short": "Hızlı bir Mastodon web istemcisi",
-  "app_logo": "Elk Logosu",
-  "app_name": "Elk",
+  "app_desc_short": "Glowrea - Mastodon manzarasının ışık gibi akmasına izin verin.",
+  "app_logo": "Glowrea Logosu",
+  "app_name": "Glowrea",
   "attachment": {
     "edit_title": "Açıklama",
     "remove_label": "Eki kaldır"
@@ -170,20 +170,20 @@
   },
   "help": {
     "build_preview": {
-      "desc1": "Şu anda Elk'in topluluktan bir önizleme sürümünü görüntülüyorsunuz - {0}.",
+      "desc1": "Şu anda Glowrea'in topluluktan bir önizleme sürümünü görüntülüyorsunuz - {0}.",
       "desc2": "Bunlar incelenmemiş veya hatta zararlı değişiklikler içerebilir.",
       "desc3": "Gerçek hesabınızla giriş yapmayın",
       "title": "Dağıtımı önizleyin"
     },
     "desc_highlight": "Orada burada bir kaç hata ve eksik özellik bekleyin.",
-    "desc_para1": "Elk'i, bizim çalışması devam eden Mastodon web istemcimizi, denemedeki ilginiz için teşekkürler!",
+    "desc_para1": "Glowrea'i, bizim çalışması devam eden Mastodon web istemcimizi, denemedeki ilginiz için teşekkürler!",
     "desc_para2": "Zaman içinde geliştirmek ve iyileştirmek için çok çalışıyoruz.",
-    "desc_para3": "Geliştirmemizi hızlandırmak için takıma GitHub Sponsors üzerinden sponsor olabilirsinizi. Umarız Elk'i beğenirsiniz!",
-    "desc_para4": "Elk açık kaynaklıdır. Test etmek, geri dönüş vermek veya katkıda bulunmak isterseniz,",
+    "desc_para3": "Geliştirmemizi hızlandırmak için takıma GitHub Sponsors üzerinden sponsor olabilirsinizi. Umarız Glowrea'i beğenirsiniz!",
+    "desc_para4": "Glowrea açık kaynaklıdır. Test etmek, geri dönüş vermek veya katkıda bulunmak isterseniz,",
     "desc_para5": "GitHub'da bize ulaşın",
     "desc_para6": "ve dahil olun.",
-    "footer_team": "Elk Takımı",
-    "title": "Elk ön izlemede!"
+    "footer_team": "Glowrea Takımı",
+    "title": "Glowrea ön izlemede!"
   },
   "language": {
     "search": "Ara"
@@ -311,10 +311,10 @@
   "pwa": {
     "dismiss": "Görmezden gel",
     "install": "Yükle",
-    "install_title": "Elk'i yükle",
-    "title": "Yeni Elk güncellemesi mevcut!",
+    "install_title": "Glowrea'i yükle",
+    "title": "Yeni Glowrea güncellemesi mevcut!",
     "update": "Güncelle",
-    "update_available_short": "Elk'i güncelle",
+    "update_available_short": "Glowrea'i güncelle",
     "webmanifest": {
       "canary": {
         "description": "Hızlı bir Mastodon web istemcisi (canary)",
@@ -323,18 +323,18 @@
       },
       "dev": {
         "description": "Hızlı bir Mastodon web istemcisi (dev)",
-        "name": "Elk (dev)",
-        "short_name": "Elk (dev)"
+        "name": "Glowrea (dev)",
+        "short_name": "Glowrea (dev)"
       },
       "preview": {
         "description": "Hızlı bir Mastodon web istemcisi (preview)",
-        "name": "Elk (preview)",
-        "short_name": "Elk (preview)"
+        "name": "Glowrea (preview)",
+        "short_name": "Glowrea (preview)"
       },
       "release": {
         "description": "Hızlı bir Mastodon web istemcisi",
-        "name": "Elk",
-        "short_name": "Elk"
+        "name": "Glowrea",
+        "short_name": "Glowrea"
       }
     }
   },
@@ -348,10 +348,10 @@
       "label": "Hakkında",
       "meet_the_team": "Takım ile buluş",
       "sponsor_action": "Bize sponsor ol",
-      "sponsor_action_desc": "Elk'i geliştiren takıma destek olmak için",
+      "sponsor_action_desc": "Glowrea'i geliştiren takıma destek olmak için",
       "sponsors": "Sponsorlar",
-      "sponsors_body_1": "Elk cömert sponsorluk ve şunların yardımı sayesinde mümkün oldu:",
-      "sponsors_body_2": "Ve Elk takımına ve üyelerine sponsor olan tüm şirketler ve şahıslar.",
+      "sponsors_body_1": "Glowrea cömert sponsorluk ve şunların yardımı sayesinde mümkün oldu:",
+      "sponsors_body_2": "Ve Glowrea takımına ve üyelerine sponsor olan tüm şirketler ve şahıslar.",
       "sponsors_body_3": "Eğer uygulamadan hoşlandıysanız bize sponsor olmayı düşünün:",
       "version": "Versiyon"
     },
@@ -395,7 +395,7 @@
           "reblog": "Gönderinizi yeniden bloglamalar",
           "title": "Hangi bildirimleri alacaksınız??"
         },
-        "description": "Elk'i kullanmıyorken bile bildirimleri alın.",
+        "description": "Glowrea'i kullanmıyorken bile bildirimleri alın.",
         "instructions": "@:settings.notifications.push_notifications.save_settings butonunu kullanarak değişikleri kaydetmeyi unutmayın!",
         "label": "Anlık bildirim ayarları",
         "policy": {
@@ -411,10 +411,10 @@
           "error_hint": "Sorunu çözmeye çalışmak için sık sorulan sorular listesine gidebilirsiniz: {0}.",
           "invalid_vapid_key": "VAPID public anahtarı geçersiz görünüyor.",
           "permission_denied": "Erişim engellendi: tarayıcınızda bildirimleri etkinleştirin.",
-          "repo_link": "Elk'in GitHub'daki deposu",
-          "request_error": "Abonelik talep edilirken bir hata oluştu, tekrar deneyin ve hata devam ederse lütfen sorunu Elk deposuna bildirin.",
+          "repo_link": "Glowrea'in GitHub'daki deposu",
+          "request_error": "Abonelik talep edilirken bir hata oluştu, tekrar deneyin ve hata devam ederse lütfen sorunu Glowrea deposuna bildirin.",
           "title": "Anlık bildirimlere abone olunamadı",
-          "too_many_registrations": "Tarayıcı kısıtlamaları nedeniyle Elk, farklı sunuculardaki birden çok hesap için anlık bildirimler hizmetini kullanamaz. Başka bir hesaptaki anlık bildirim aboneliğinden çıkmalı ve tekrar denemelisiniz.",
+          "too_many_registrations": "Tarayıcı kısıtlamaları nedeniyle Glowrea, farklı sunuculardaki birden çok hesap için anlık bildirimler hizmetini kullanamaz. Başka bir hesaptaki anlık bildirim aboneliğinden çıkmalı ve tekrar denemelisiniz.",
           "vapid_not_supported": "Tarayıcınız Web Push Bildirimlerini destekliyor, ancak VAPID protokolünü uygulamıyor gibi görünüyor."
         },
         "title": "Anlık bildirim ayarları",
@@ -423,10 +423,10 @@
         "unsupported": "Tarayıcınız anlık bildirimleri desteklemiyor.",
         "warning": {
           "enable_close": "Kapat",
-          "enable_description": "Elk açık değilken bildirim almak için anlık bildirimleri etkinleştirin. Etkinleştirildikten sonra yukarıdaki \"@:settings.notifications.show_btn{'\"'} düğmesini kullanarak tam olarak ne tür etkileşimlerin anlık bildirimler oluşturduğunu kontrol edebilirsiniz.",
-          "enable_description_desktop": "Elk açık değilken bildirim almak için anlık bildirimleri etkinleştirin. Etkinleştirildikten sonra \"Ayarlar > Bildirimler > Anlık bildirim ayarları\"nda hangi tür etkileşimlerin anlık bildirimler oluşturduğunu tam olarak kontrol edebilirsiniz.",
+          "enable_description": "Glowrea açık değilken bildirim almak için anlık bildirimleri etkinleştirin. Etkinleştirildikten sonra yukarıdaki \"@:settings.notifications.show_btn{'\"'} düğmesini kullanarak tam olarak ne tür etkileşimlerin anlık bildirimler oluşturduğunu kontrol edebilirsiniz.",
+          "enable_description_desktop": "Glowrea açık değilken bildirim almak için anlık bildirimleri etkinleştirin. Etkinleştirildikten sonra \"Ayarlar > Bildirimler > Anlık bildirim ayarları\"nda hangi tür etkileşimlerin anlık bildirimler oluşturduğunu tam olarak kontrol edebilirsiniz.",
           "enable_description_mobile": "Ayarlara \"Ayarlar > Bildirimler > Anlık bildirim ayarları\" gezinme menüsünü kullanarak da erişebilirsiniz.",
-          "enable_description_settings": "Elk açık değilken bildirim almak için anlık bildirimleri etkinleştirin. Etkinleştirdikten sonra, aynı ekranda hangi tür etkileşimlerin anlık bildirimleri oluşturduğunu tam olarak kontrol edebileceksiniz.",
+          "enable_description_settings": "Glowrea açık değilken bildirim almak için anlık bildirimleri etkinleştirin. Etkinleştirdikten sonra, aynı ekranda hangi tür etkileşimlerin anlık bildirimleri oluşturduğunu tam olarak kontrol edebileceksiniz.",
           "enable_desktop": "Anlık bildirimleri etkinleştir",
           "enable_title": "Hiçbirşeyi kaçırma",
           "re_auth": "Görünüşe göre sunucunuz anlık bildirimleri desteklemiyor. Çıkış yapmayı deneyin ve tekrar giriş yapın, bu mesaj hala görünüyorsa sunucu yöneticinizle iletişime geçin."
@@ -489,9 +489,9 @@
     }
   },
   "share_target": {
-    "description": "Elk, diğer uygulamalardan içerik paylaşabilmeniz için yapılandırılabilir, Elk'i cihazınıza veya bilgisayarınıza yükleyip oturum açmanız yeterlidir.",
-    "hint": "Elk ile içerik paylaşmak için Elk kurulu olmalı ve oturum açmış olmalısınız.",
-    "title": "Elk ile paylaş"
+    "description": "Glowrea, diğer uygulamalardan içerik paylaşabilmeniz için yapılandırılabilir, Glowrea'i cihazınıza veya bilgisayarınıza yükleyip oturum açmanız yeterlidir.",
+    "hint": "Glowrea ile içerik paylaşmak için Glowrea kurulu olmalı ve oturum açmış olmalısınız.",
+    "title": "Glowrea ile paylaş"
   },
   "state": {
     "attachments_exceed_server_limit": "Ek sayısı gönderi başına sınırı aştı.",

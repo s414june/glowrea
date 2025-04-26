@@ -7,6 +7,7 @@
     "favourited": "Favourited",
     "switch_server": "Switch Server"
   },
+  "app_desc_short": "Glowrea — Let the Mastodon landscape flow like light.",
   "magic_keys": {
     "groups": {
       "actions": {

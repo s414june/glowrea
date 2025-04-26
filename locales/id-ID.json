@@ -84,9 +84,9 @@
     "switch_server": "Switch Server",
     "vote": "Pilih"
   },
-  "app_desc_short": "Klien web Mastodon yang gesit",
-  "app_logo": "Logo Elk",
-  "app_name": "Elk",
+  "app_desc_short": "Glowrea - Biarkan lanskap mastodon mengalir seperti cahaya.",
+  "app_logo": "Logo Glowrea",
+  "app_name": "Glowrea",
   "attachment": {
     "edit_title": "Deskripsi",
     "remove_label": "Hapus lampiran"
@@ -178,20 +178,20 @@
   },
   "help": {
     "build_preview": {
-      "desc1": "Anda sedang melihat versi pratinjau Elk dari komunitas - {0}",
+      "desc1": "Anda sedang melihat versi pratinjau Glowrea dari komunitas - {0}",
       "desc2": "Ini mungkin berisi perubahan yang belum ditinjau atau bahkan berbahaya.",
       "desc3": "Jangan masuk dengan akun asli Anda.",
       "title": "Pratinjau penerapan"
     },
     "desc_highlight": "Masih terdapat beberapa bug dan fitur yang hilang di sana-sini.",
-    "desc_para1": "Terima kasih atas minat Anda untuk mencoba Elk, klien web Mastodon kami yang sedang dalam proses penyempurnaan!",
+    "desc_para1": "Terima kasih atas minat Anda untuk mencoba Glowrea, klien web Mastodon kami yang sedang dalam proses penyempurnaan!",
     "desc_para2": "kami bekerja keras untuk mengembangkan dan memperbaikinya dari waktu ke waktu.",
-    "desc_para3": "Untuk meningkatkan pengembangan, Anda dapat mensponsori Tim melalui Sponsor GitHub. \nKami harap Anda menikmati Elk!",
-    "desc_para4": "Elk adalah Software Sumber Terbuka. \nJika Anda ingin membantu dalam pengujian, memberikan umpan balik, atau berkontribusi,",
+    "desc_para3": "Untuk meningkatkan pengembangan, Anda dapat mensponsori Tim melalui Sponsor GitHub. \nKami harap Anda menikmati Glowrea!",
+    "desc_para4": "Glowrea adalah Software Sumber Terbuka. \nJika Anda ingin membantu dalam pengujian, memberikan umpan balik, atau berkontribusi,",
     "desc_para5": "hubungi kami di GitHub",
     "desc_para6": "dan terlibat.",
-    "footer_team": "Tim Elk",
-    "title": "Elk sedang dalam Uji Pratinjau!"
+    "footer_team": "Tim Glowrea",
+    "title": "Glowrea sedang dalam Uji Pratinjau!"
   },
   "language": {
     "search": "Cari"
@@ -335,14 +335,14 @@
   "pwa": {
     "dismiss": "Batalkan",
     "install": "Instal",
-    "install_title": "Instal Elk",
+    "install_title": "Instal Glowrea",
     "screenshots": {
-      "dark": "Tangkapan layar Elk yang berjalan dalam mode gelap",
-      "light": "Tangkapan layar Elk yang berjalan dalam mode terang"
+      "dark": "Tangkapan layar Glowrea yang berjalan dalam mode gelap",
+      "light": "Tangkapan layar Glowrea yang berjalan dalam mode terang"
     },
-    "title": "Pembaruan Elk tersedia!",
+    "title": "Pembaruan Glowrea tersedia!",
     "update": "Perbarui",
-    "update_available_short": "Perbarui Elk",
+    "update_available_short": "Perbarui Glowrea",
     "webmanifest": {
       "canary": {
         "description": "Klien web Mastodon yang gesit (canary)",
@@ -351,18 +351,18 @@
       },
       "dev": {
         "description": "Klien web Mastodon yang gesit (dev)",
-        "name": "Elk (dev)",
-        "short_name": "Elk (dev)"
+        "name": "Glowrea (dev)",
+        "short_name": "Glowrea (dev)"
       },
       "preview": {
         "description": "Klien web Mastodon yang gesit (pratinjau)",
-        "name": "Elk (pratinjau)",
-        "short_name": "Elk (pratinjau)"
+        "name": "Glowrea (pratinjau)",
+        "short_name": "Glowrea (pratinjau)"
       },
       "release": {
         "description": "Klien web Mastodon yang gesit",
-        "name": "Elk",
-        "short_name": "Elk"
+        "name": "Glowrea",
+        "short_name": "Glowrea"
       }
     }
   },
@@ -412,10 +412,10 @@
       "label": "Tentang",
       "meet_the_team": "Tim Pengembang",
       "sponsor_action": "Sponsori kami",
-      "sponsor_action_desc": "Untuk mendukung tim mengembangkan Elk",
+      "sponsor_action_desc": "Untuk mendukung tim mengembangkan Glowrea",
       "sponsors": "Sponsors",
-      "sponsors_body_1": "Elk dimungkinkan berkat pendukung yang murah hati dan bantuan dari:",
-      "sponsors_body_2": "Dan semua perusahaan dan individu yang mensponsori Tim Elk dan para anggotanya.",
+      "sponsors_body_1": "Glowrea dimungkinkan berkat pendukung yang murah hati dan bantuan dari:",
+      "sponsors_body_2": "Dan semua perusahaan dan individu yang mensponsori Tim Glowrea dan para anggotanya.",
       "sponsors_body_3": "Jika Anda menikmati aplikasi ini, pertimbangkan untuk mensponsori kami:",
       "version": "Versi"
     },
@@ -460,7 +460,7 @@
           "reblog": "Reblog posting Anda",
           "title": "Pemberitahuan apa yang harus diterima?"
         },
-        "description": "Terima notifikasi bahkan saat Anda tidak menggunakan Elk.",
+        "description": "Terima notifikasi bahkan saat Anda tidak menggunakan Glowrea.",
         "instructions": "Jangan lupa untuk menyimpan perubahan Anda menggunakan tombol @:settings.notifications.push_notifications.save_settings!",
         "label": "Pengaturan pemberitahuan push",
         "policy": {
@@ -476,10 +476,10 @@
           "error_hint": "Anda dapat melihat daftar pertanyaan umum untuk mencoba menyelesaikan masalah: {0}.",
           "invalid_vapid_key": "Kunci publik VAPID tampaknya tidak valid.",
           "permission_denied": "Izin ditolak: aktifkan notifikasi di browser Anda.",
-          "repo_link": "Repositori Elk di GitHub",
-          "request_error": "Terjadi kesalahan saat meminta langganan, coba lagi dan jika kesalahan berlanjut, harap laporkan masalah tersebut ke repositori Elk.",
+          "repo_link": "Repositori Glowrea di GitHub",
+          "request_error": "Terjadi kesalahan saat meminta langganan, coba lagi dan jika kesalahan berlanjut, harap laporkan masalah tersebut ke repositori Glowrea.",
           "title": "Tidak dapat berlangganan notifikasi push",
-          "too_many_registrations": "Karena keterbatasan browser, Elk tidak dapat menggunakan layanan pemberitahuan push untuk banyak akun di server yang berbeda. \nAnda harus berhenti berlangganan notifikasi push di akun lain dan coba lagi.",
+          "too_many_registrations": "Karena keterbatasan browser, Glowrea tidak dapat menggunakan layanan pemberitahuan push untuk banyak akun di server yang berbeda. \nAnda harus berhenti berlangganan notifikasi push di akun lain dan coba lagi.",
           "vapid_not_supported": "Browser Anda mendukung Pemberitahuan Push Web, namun tampaknya tidak menerapkan protokol VAPID."
         },
         "title": "Pengaturan pemberitahuan push",
@@ -488,10 +488,10 @@
         "unsupported": "Browser Anda tidak mendukung pemberitahuan push.",
         "warning": {
           "enable_close": "Menutup",
-          "enable_description": "Untuk menerima notifikasi saat Elk tidak terbuka, aktifkan notifikasi push. \nAnda dapat mengontrol dengan tepat jenis interaksi apa yang menghasilkan pemberitahuan push melalui tombol \"@:settings.notifications.show_btn{'\"'} di atas setelah diaktifkan.",
-          "enable_description_desktop": "Untuk menerima notifikasi saat Elk tidak terbuka, aktifkan notifikasi push. \nAnda dapat mengontrol dengan tepat jenis interaksi apa yang menghasilkan notifikasi push di \"Pengaturan > Notifikasi > Setelan notifikasi push\" setelah diaktifkan.",
+          "enable_description": "Untuk menerima notifikasi saat Glowrea tidak terbuka, aktifkan notifikasi push. \nAnda dapat mengontrol dengan tepat jenis interaksi apa yang menghasilkan pemberitahuan push melalui tombol \"@:settings.notifications.show_btn{'\"'} di atas setelah diaktifkan.",
+          "enable_description_desktop": "Untuk menerima notifikasi saat Glowrea tidak terbuka, aktifkan notifikasi push. \nAnda dapat mengontrol dengan tepat jenis interaksi apa yang menghasilkan notifikasi push di \"Pengaturan > Notifikasi > Setelan notifikasi push\" setelah diaktifkan.",
           "enable_description_mobile": "Anda juga dapat mengakses pengaturan menggunakan menu navigasi \"Pengaturan > Pemberitahuan > Pengaturan pemberitahuan push\".",
-          "enable_description_settings": "Untuk menerima notifikasi saat Elk tidak terbuka, aktifkan notifikasi push. \nAnda akan dapat mengontrol dengan tepat jenis interaksi apa yang menghasilkan pemberitahuan push pada layar yang sama ini setelah Anda mengaktifkannya.",
+          "enable_description_settings": "Untuk menerima notifikasi saat Glowrea tidak terbuka, aktifkan notifikasi push. \nAnda akan dapat mengontrol dengan tepat jenis interaksi apa yang menghasilkan pemberitahuan push pada layar yang sama ini setelah Anda mengaktifkannya.",
           "enable_desktop": "Aktifkan pemberitahuan push",
           "enable_title": "Jangan pernah melewatkan apa pun",
           "re_auth": "Tampaknya server Anda tidak mendukung pemberitahuan push. \nCoba keluar dan masuk lagi, jika pesan ini masih muncul hubungi administrator server Anda."
@@ -559,9 +559,9 @@
     }
   },
   "share_target": {
-    "description": "Elk dapat dikonfigurasi sehingga Anda dapat berbagi konten dari aplikasi lain, cukup instal Elk di perangkat atau komputer Anda dan masuk.",
-    "hint": "Untuk berbagi konten dengan Elk, Elk harus diinstal dan Anda harus masuk.",
-    "title": "Bagikan dengan Elk"
+    "description": "Glowrea dapat dikonfigurasi sehingga Anda dapat berbagi konten dari aplikasi lain, cukup instal Glowrea di perangkat atau komputer Anda dan masuk.",
+    "hint": "Untuk berbagi konten dengan Glowrea, Glowrea harus diinstal dan Anda harus masuk.",
+    "title": "Bagikan dengan Glowrea"
   },
   "state": {
     "attachments_exceed_server_limit": "Jumlah lampiran melebihi batas per posting.",

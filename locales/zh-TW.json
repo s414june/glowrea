@@ -88,7 +88,7 @@
     "switch_server": "切換伺服器",
     "vote": "投票"
   },
-  "app_desc_short": "一個靈巧的 Mastodon 用戶端",
+  "app_desc_short": "光景，讓Mastodon景致——如光流動",
   "app_logo": "光景 Logo",
   "app_name": "光景",
   "attachment": {
@@ -370,8 +370,8 @@
     "install": "安裝",
     "install_title": "安裝光景",
     "screenshots": {
-      "dark": "Screenshot of Elk running in dark mode",
-      "light": "Screenshot of Elk running in light mode"
+      "dark": "Screenshot of Glowrea running in dark mode",
+      "light": "Screenshot of Glowrea running in light mode"
     },
     "title": "光景存在新的更新",
     "update": "更新",

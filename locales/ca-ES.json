@@ -2,6 +2,7 @@
   "action": {
     "switch_server": "Canvia el servidor"
   },
+  "app_desc_short": "Glowrea: deixeu que el paisatge del mastodon flueixi com la llum.",
   "user": {
     "tip_search_server": "Aneu al directori de Mastodon i exploreu casos que us agradi."
   }

@@ -88,9 +88,9 @@
     "switch_server": "Servidor de cambio",
     "vote": "Votar"
   },
-  "app_desc_short": "Un cliente web ágil para Mastodon",
-  "app_logo": "Logotipo de Elk",
-  "app_name": "Elk",
+  "app_desc_short": "Glowrea: deje que el paisaje del mastodón fluya como la luz.",
+  "app_logo": "Logotipo de Glowrea",
+  "app_name": "Glowrea",
   "attachment": {
     "edit_title": "Descripción",
     "remove_label": "Eliminar fichero adjunto"
@@ -194,20 +194,20 @@
   },
   "help": {
     "build_preview": {
-      "desc1": "Estás viendo actualmente una versión preliminar de Elk de la comunidad - {0}.",
+      "desc1": "Estás viendo actualmente una versión preliminar de Glowrea de la comunidad - {0}.",
       "desc2": "Puede contener cambios no revisados o incluso maliciosos.",
       "desc3": "No inicies sesión con tu cuenta real.",
       "title": "Implementación de vista previa"
     },
     "desc_highlight": "Es normal encontrar algunos errores y características faltantes aquí y allá.",
-    "desc_para1": "¡Gracias por el interés en probar Elk, nuestro cliente genérico en desarrollo para Mastodon!",
+    "desc_para1": "¡Gracias por el interés en probar Glowrea, nuestro cliente genérico en desarrollo para Mastodon!",
     "desc_para2": "Estamos trabajando duro en el desarrollo y mejorándolo constantemente.",
-    "desc_para3": "Para ayudar a impulsar el desarrollo, puedes patrocinar a los miembros de nuestro equipo con los enlaces a continuación. ¡Esperamos que estés disfrutando Elk!",
-    "desc_para4": "Elk es de código abierto, si te gustaría ayudar probando, dando opinión o contribuyendo,",
+    "desc_para3": "Para ayudar a impulsar el desarrollo, puedes patrocinar a los miembros de nuestro equipo con los enlaces a continuación. ¡Esperamos que estés disfrutando Glowrea!",
+    "desc_para4": "Glowrea es de código abierto, si te gustaría ayudar probando, dando opinión o contribuyendo,",
     "desc_para5": "ponte en contacto con nosotros a través de GitHub",
     "desc_para6": "para participar.",
-    "footer_team": "El equipo de desarrollo de Elk",
-    "title": "¡Elk está en Vista Previa!"
+    "footer_team": "El equipo de desarrollo de Glowrea",
+    "title": "¡Glowrea está en Vista Previa!"
   },
   "language": {
     "search": "Buscar"
@@ -366,14 +366,14 @@
   "pwa": {
     "dismiss": "Descartar",
     "install": "Instalar",
-    "install_title": "Instalar Elk",
+    "install_title": "Instalar Glowrea",
     "screenshots": {
-      "dark": "Captura de pantalla de Elk ejecutándose en modo oscuro",
-      "light": "Captura de pantalla de Elk ejecutándose en modo claro"
+      "dark": "Captura de pantalla de Glowrea ejecutándose en modo oscuro",
+      "light": "Captura de pantalla de Glowrea ejecutándose en modo claro"
     },
-    "title": "Nueva versión de Elk disponible",
+    "title": "Nueva versión de Glowrea disponible",
     "update": "Actualizar",
-    "update_available_short": "Actualiza Elk",
+    "update_available_short": "Actualiza Glowrea",
     "webmanifest": {
       "canary": {
         "description": "Un cliente web ágil para Mastodon (canary)",
@@ -382,18 +382,18 @@
       },
       "dev": {
         "description": "Un cliente web ágil para Mastodon (desarrollo)",
-        "name": "Elk (desarrollo)",
-        "short_name": "Elk (desarrollo)"
+        "name": "Glowrea (desarrollo)",
+        "short_name": "Glowrea (desarrollo)"
       },
       "preview": {
         "description": "Un cliente web ágil para Mastodon (vista previa)",
-        "name": "Elk (vista previa)",
-        "short_name": "Elk (vista previa)"
+        "name": "Glowrea (vista previa)",
+        "short_name": "Glowrea (vista previa)"
       },
       "release": {
         "description": "Un cliente web ágil para Mastodon",
-        "name": "Elk",
-        "short_name": "Elk"
+        "name": "Glowrea",
+        "short_name": "Glowrea"
       }
     }
   },
@@ -443,10 +443,10 @@
       "label": "Acerca de",
       "meet_the_team": "Conoce al equipo",
       "sponsor_action": "Patrocinar",
-      "sponsor_action_desc": "Apoya al equipo detrás de Elk",
+      "sponsor_action_desc": "Apoya al equipo detrás de Glowrea",
       "sponsors": "Patrocinadores",
-      "sponsors_body_1": "Elk es posible gracias al generoso patrocinio y apoyo de:",
-      "sponsors_body_2": "Y todas las empresas y personas que patrocinan al equipo de Elk y sus miembros.",
+      "sponsors_body_1": "Glowrea es posible gracias al generoso patrocinio y apoyo de:",
+      "sponsors_body_2": "Y todas las empresas y personas que patrocinan al equipo de Glowrea y sus miembros.",
       "sponsors_body_3": "Si estás disfrutando de la aplicación, considera patrocinarnos:",
       "version": "Versión"
     },
@@ -494,7 +494,7 @@
           "reblog": "Retooteo de tus publicaciones",
           "title": "¿Qué notificaciones recibir?"
         },
-        "description": "Recibe notificaciones incluso cuando no estés utilizando Elk.",
+        "description": "Recibe notificaciones incluso cuando no estés utilizando Glowrea.",
         "instructions": "¡No olvides guardar los cambios utilizando el botón @:settings.notifications.push_notifications.save_settings{'!'}",
         "label": "Ajustes de notificaciones push",
         "policy": {
@@ -510,10 +510,10 @@
           "error_hint": "Puede consultar una lista de preguntas más frecuentes para tratar de solucionar el problema: {0}.",
           "invalid_vapid_key": "La clave pública VAPID parece no ser válida.",
           "permission_denied": "Permiso denegado: habilita las notificaciones en tu navegador.",
-          "repo_link": "Repositorio de Elk en GitHub",
-          "request_error": "Se produjo un error al solicitar la suscripción, inténtalo de nuevo y si el error persiste, notifica la incidencia en el repositorio de Elk.",
+          "repo_link": "Repositorio de Glowrea en GitHub",
+          "request_error": "Se produjo un error al solicitar la suscripción, inténtalo de nuevo y si el error persiste, notifica la incidencia en el repositorio de Glowrea.",
           "title": "No se pudo suscribir a las notificaciones push",
-          "too_many_registrations": "Debido a las limitaciones del navegador, Elk no puede habilitar las notificaciones push para múltiples cuentas en diferentes servidores. Deberá cancelar las subscripciones a notificaciones push en las otras cuentas e intentarlo de nuevo.",
+          "too_many_registrations": "Debido a las limitaciones del navegador, Glowrea no puede habilitar las notificaciones push para múltiples cuentas en diferentes servidores. Deberá cancelar las subscripciones a notificaciones push en las otras cuentas e intentarlo de nuevo.",
           "vapid_not_supported": "Su navegador es compatible con las notificaciones web push, pero no parece implementar el protocolo VAPID."
         },
         "title": "Ajustes de notificaciones push",
@@ -522,10 +522,10 @@
         "unsupported": "Tu navegador no soporta notificaciones push.",
         "warning": {
           "enable_close": "Cerrar",
-          "enable_description": "Para recibir notificaciones cuando Elk no esté abierto, habilita las notificaciones push. Puedes controlar con precisión qué tipos de interacciones generan notificaciones push a través del botón \"@:settings.notifications.show_btn{'\"'} de arriba una vez que estén habilitadas.",
-          "enable_description_desktop": "Para recibir notificaciones cuando Elk no esté abierto, habilite las notificaciones push. Puedes controlar con precisión qué tipos de interacciones generan notificaciones push en el menú de navegación en \"Ajustes > Notificaciones > Ajustes de notificaciones push\" una vez que estén habilitadas.",
+          "enable_description": "Para recibir notificaciones cuando Glowrea no esté abierto, habilita las notificaciones push. Puedes controlar con precisión qué tipos de interacciones generan notificaciones push a través del botón \"@:settings.notifications.show_btn{'\"'} de arriba una vez que estén habilitadas.",
+          "enable_description_desktop": "Para recibir notificaciones cuando Glowrea no esté abierto, habilite las notificaciones push. Puedes controlar con precisión qué tipos de interacciones generan notificaciones push en el menú de navegación en \"Ajustes > Notificaciones > Ajustes de notificaciones push\" una vez que estén habilitadas.",
           "enable_description_mobile": "También podrá acceder a la configuración utilizando el menú de navegación en \"Ajustes > Notificaciones > Ajutes de notificaciones push\".",
-          "enable_description_settings": "Para recibir notificaciones cuando Elk no esté abierto, habilita las notificaciones push. Podrás controlar con precisión qué tipos de interacciones generan notificaciones push en esta misma pantalla una vez las habilites.",
+          "enable_description_settings": "Para recibir notificaciones cuando Glowrea no esté abierto, habilita las notificaciones push. Podrás controlar con precisión qué tipos de interacciones generan notificaciones push en esta misma pantalla una vez las habilites.",
           "enable_desktop": "Habilitar notificaciones push",
           "enable_title": "Nunca te pierdas nada",
           "re_auth": "Parece que tu servidor no soporta notificaciones push. Prueba a cerrar la sesión y volver a iniciarla, si este mensaje sigue apareciendo contacta con el administrador de tu servidor."
@@ -596,9 +596,9 @@
     }
   },
   "share_target": {
-    "description": "Elk puede ser configurado para que pueda compartir contenido desde otras aplicaciones, simplemente tiene que instalar Elk en su dispositivo u ordenador e iniciar sesión.",
-    "hint": "Para poder compartir contenido con Elk, debes instalar Elk e iniciar sesión.",
-    "title": "Compartir con Elk"
+    "description": "Glowrea puede ser configurado para que pueda compartir contenido desde otras aplicaciones, simplemente tiene que instalar Glowrea en su dispositivo u ordenador e iniciar sesión.",
+    "hint": "Para poder compartir contenido con Glowrea, debes instalar Glowrea e iniciar sesión.",
+    "title": "Compartir con Glowrea"
   },
   "state": {
     "attachments_exceed_server_limit": "Número máximo de archivos adjuntos por publicación excedido.",

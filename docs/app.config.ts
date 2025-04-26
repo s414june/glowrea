@@ -1,16 +1,16 @@
 export default defineAppConfig({
   docus: {
-    title: 'Elk',
-    description: 'A nimble Mastodon web client.',
+    title: 'Glowrea',
+    description: '光景，讓Mastodon景致——如光流動',
     image: 'https://docs.elk.zone/elk-screenshot.png',
     socials: {
       // twitter: 'elk_zone',
-      github: 'elk-zone/elk',
-      mastodon: {
-        label: 'Mastodon',
-        icon: 'IconMastodon',
-        href: 'https://elk.zone/@elk@webtoo.ls',
-      },
+      github: 's414june/glowrea',
+      // mastodon: {
+      //   label: 'Mastodon',
+      //   icon: 'IconMastodon',
+      //   href: 'https://elk.zone/@elk@webtoo.ls',
+      // },
     },
     aside: {
       level: 0,

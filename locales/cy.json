@@ -69,9 +69,9 @@
     "switch_server": "Gweinydd Newid",
     "vote": "Pleidleisio"
   },
-  "app_desc_short": "Cleient gwe ystwyth ar gyfer Mastodon",
-  "app_logo": "Logo Elk",
-  "app_name": "Elk",
+  "app_desc_short": "Glowrea - Gadewch i dirwedd Mastodon lifo fel golau.",
+  "app_logo": "Logo Glowrea",
+  "app_name": "Glowrea",
   "attachment": {
     "edit_title": "Disgrifiad",
     "remove_label": "Tunnu atodiad"
@@ -117,13 +117,13 @@
   },
   "help": {
     "desc_highlight": "Expect some bugs and missing features here and there.",
-    "desc_para1": "Diolch am eich diddordeb mewn rhoi cynnig ar Elk, ein cleient gwe Mastodon yr ydym yn gweithio ar!",
+    "desc_para1": "Diolch am eich diddordeb mewn rhoi cynnig ar Glowrea, ein cleient gwe Mastodon yr ydym yn gweithio ar!",
     "desc_para2": "Rydym yn gweithio'n galed arno ac yn ei wellau dros amser.",
-    "desc_para3": "I hybu datblygiad, gallwch noddi'r tîm trwy Noddwyr GitHub. Gobeithio y gwnewch chi fwynhau Elk!",
-    "desc_para4": "Mae Elk yn gôd agored. Os hoffech helpu gyda phrofi, rhoi adborth, neu gyfrannu,",
+    "desc_para3": "I hybu datblygiad, gallwch noddi'r tîm trwy Noddwyr GitHub. Gobeithio y gwnewch chi fwynhau Glowrea!",
+    "desc_para4": "Mae Glowrea yn gôd agored. Os hoffech helpu gyda phrofi, rhoi adborth, neu gyfrannu,",
     "desc_para5": "siaradwch a ni ar GitHub",
     "desc_para6": "a chymrwch rhan.",
-    "title": "Mae Elk yn feddalwedd rhagoledig!"
+    "title": "Mae Glowrea yn feddalwedd rhagoledig!"
   },
   "language": {
     "search": "Chwilio"
@@ -205,29 +205,29 @@
   },
   "pwa": {
     "dismiss": "Diystyru",
-    "title": "Mae diweddariad newydd o Elk ar gael!",
+    "title": "Mae diweddariad newydd o Glowrea ar gael!",
     "update": "Diweddaru",
-    "update_available_short": "Diweddaru Elk",
+    "update_available_short": "Diweddaru Glowrea",
     "webmanifest": {
       "canary": {
         "description": "Cleient gwe ystwyth ar gyfer Mastodon (caneri)",
-        "name": "Elk (caneri)",
-        "short_name": "Elk (caneri)"
+        "name": "Glowrea (caneri)",
+        "short_name": "Glowrea (caneri)"
       },
       "dev": {
         "description": "Cleient gwe ystwyth ar gyfer Mastodon (datblygu)",
-        "name": "Elk (datblygu)",
-        "short_name": "Elk (datblygu)"
+        "name": "Glowrea (datblygu)",
+        "short_name": "Glowrea (datblygu)"
       },
       "preview": {
         "description": "Cleient gwe ystwyth ar gyfer Mastodon (rhagolwg)",
-        "name": "Elk (rhagolwg)",
-        "short_name": "Elk (rhadolwg)"
+        "name": "Glowrea (rhagolwg)",
+        "short_name": "Glowrea (rhadolwg)"
       },
       "release": {
         "description": "Cleient gwe ystwyth ar gyfer Mastodon",
-        "name": "Elk",
-        "short_name": "Elk"
+        "name": "Glowrea",
+        "short_name": "Glowrea"
       }
     }
   },
@@ -240,10 +240,10 @@
       "label": "Ynglŷn",
       "meet_the_team": "Cwrdd a'r tîm",
       "sponsor_action": "Noddi ni",
-      "sponsor_action_desc": "I helpu'r tîm sy'n creu Elk",
+      "sponsor_action_desc": "I helpu'r tîm sy'n creu Glowrea",
       "sponsors": "Noddwyr",
-      "sponsors_body_1": "Mae Elk wedi'i wneud yn bosibl gan noddiant hael:",
-      "sponsors_body_2": "A phob cwmni a pherson sy'n noddi tîm Elk a'i aelodau.",
+      "sponsors_body_1": "Mae Glowrea wedi'i wneud yn bosibl gan noddiant hael:",
+      "sponsors_body_2": "A phob cwmni a pherson sy'n noddi tîm Glowrea a'i aelodau.",
       "sponsors_body_3": "Os ydych yn mwynhau'r ap, efallai hoffwch ein noddi:"
     },
     "account_settings": {
@@ -285,7 +285,7 @@
           "reblog": "Bŵstio",
           "title": "Pa hysbysiadau i'w dderbyn?"
         },
-        "description": "Derbyn hysbysiadau hyd yn oed pan nad ydych yn defnyddio Elk.",
+        "description": "Derbyn hysbysiadau hyd yn oed pan nad ydych yn defnyddio Glowrea.",
         "instructions": "Peidiwch anghofio cadw eich newidiadau gyda'r botwm @:settings.notifications.push_notifications.save_settings!",
         "label": "Dewisiadau hysbysiadau gwthiadwy",
         "policy": {
@@ -299,9 +299,9 @@
         "subscription_error": {
           "clear_error": "Cau",
           "permission_denied": "Gwrthodwyd caniatâd: trowch hysbysiadau ymlaen yn eich porwr.",
-          "request_error": "Roedd gwall wrth ofyn am y tanysgrifiad, ceisiwch eto ac os yw'r gwall yn parhau, rhowch wybod i Elk am y mater.",
+          "request_error": "Roedd gwall wrth ofyn am y tanysgrifiad, ceisiwch eto ac os yw'r gwall yn parhau, rhowch wybod i Glowrea am y mater.",
           "title": "Ni allwyd tanysgrifio i hysbysiadau gwthiadwy",
-          "too_many_registrations": "Oherwydd cyfyngiadau eich porwr, ni all Elk ddefnyddio'r gwasanaeth hysbysiadau gwthiadwy ar gyfer sawl cyfrif ar wahanol weinyddion. Dylech ddad-danysgrifio o hysbysiadau gwthiadwy ar gyfrifon eraill a cheisio eto."
+          "too_many_registrations": "Oherwydd cyfyngiadau eich porwr, ni all Glowrea ddefnyddio'r gwasanaeth hysbysiadau gwthiadwy ar gyfer sawl cyfrif ar wahanol weinyddion. Dylech ddad-danysgrifio o hysbysiadau gwthiadwy ar gyfrifon eraill a cheisio eto."
         },
         "title": "Gosodiadau hysbysiadau gwthiadwy",
         "undo_settings": "Dad-wneud newidiadau",
@@ -309,10 +309,10 @@
         "unsupported": "Nid yw'ch porwr yn gallu gerbyn hysbysiadau gwthiadwy.",
         "warning": {
           "enable_close": "Cau",
-          "enable_description": "I dderbyn hysbysiadau pam nad yw Elk ar agor, trowch hysbysiadau gwthiadwy ymlaen. Gallwch reoli pa rhyngweithradiadau sy'n creu hysbysiadau gwthiadwy trwy'r botwn \"@:settings.notifications.show_btn{'\"'} pan y maent ymlaen.",
-          "enable_description_desktop": "I dderbyn hysbysiadau pam nad yw Elk ar agor, trowch hysbysiadau gwthiadwy ymlaen. Gallwch reoli pa rhyngweithradiadau sy'n creu hysbysiadau gwthiadwy yn \"Gosodiadau > Hysbysiadau > Dewisiadau hysbysiadau gwthadwy\" pan y maent ymlaen.",
+          "enable_description": "I dderbyn hysbysiadau pam nad yw Glowrea ar agor, trowch hysbysiadau gwthiadwy ymlaen. Gallwch reoli pa rhyngweithradiadau sy'n creu hysbysiadau gwthiadwy trwy'r botwn \"@:settings.notifications.show_btn{'\"'} pan y maent ymlaen.",
+          "enable_description_desktop": "I dderbyn hysbysiadau pam nad yw Glowrea ar agor, trowch hysbysiadau gwthiadwy ymlaen. Gallwch reoli pa rhyngweithradiadau sy'n creu hysbysiadau gwthiadwy yn \"Gosodiadau > Hysbysiadau > Dewisiadau hysbysiadau gwthadwy\" pan y maent ymlaen.",
           "enable_description_mobile": "Gallwch hefyd gael mynediad i'r gosodiadau yn \"Gosodiadau > Hysbysiadau > Dewisiadau hysbysiadau gwthadwy\".",
-          "enable_description_settings": "I dderbyn hysbysiadau pam nad yw Elk ar agor, trowch hysbysiadau gwthiadwy ymlaen. Gallwch reoli pa rhyngweithradiadau sy'n creu hysbysiadau gwthiadwy pan y maent ymlaen.",
+          "enable_description_settings": "I dderbyn hysbysiadau pam nad yw Glowrea ar agor, trowch hysbysiadau gwthiadwy ymlaen. Gallwch reoli pa rhyngweithradiadau sy'n creu hysbysiadau gwthiadwy pan y maent ymlaen.",
           "enable_desktop": "Troi hysbysiadau gwthiadwy ymlaen",
           "enable_title": "Byddwch byth yn colli unrhywbeth",
           "re_auth": "Ni'd yw'ch gweinydd yn gallu danfon hysbysiadau gwthiadwy. Ymgesiwch allgofnodi a mewngofnodi eto, os mae'r neges yma'n parhau siaradwch a'ch rheolwr gweinydd."

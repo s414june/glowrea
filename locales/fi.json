@@ -88,9 +88,9 @@
     "switch_server": "Kytkentäpalvelin",
     "vote": "Äänestä"
   },
-  "app_desc_short": "Ketterä verkkosovellus Mastodonille",
-  "app_logo": "Elk-logo",
-  "app_name": "Elk",
+  "app_desc_short": "Glowrea - Anna Mastodonin maiseman virtata kuin valo.",
+  "app_logo": "Glowrea-logo",
+  "app_name": "Glowrea",
   "attachment": {
     "edit_title": "Kuvaus",
     "remove_label": "Poista liite"
@@ -200,13 +200,13 @@
       "title": "Esijulkaisu"
     },
     "desc_highlight": "Saatat löytää bugeja ja puuttuvia ominaisuuksia sieltä täältä.",
-    "desc_para1": "Elk on ketterä verkkosovellus Mastodonille. Voit kirjautua sisään Mastodon-tilillesi ja olla sen avulla vuorovaikutuksessa fediversumin kanssa.",
-    "desc_para2": "Elk on avointa lähdekoodia, ja me parantelemme sitä vilkkaasti yhteisöprojektina. Liity joukkoomme, niin rakennamme sitä yhdessä!",
+    "desc_para1": "Glowrea on ketterä verkkosovellus Mastodonille. Voit kirjautua sisään Mastodon-tilillesi ja olla sen avulla vuorovaikutuksessa fediversumin kanssa.",
+    "desc_para2": "Glowrea on avointa lähdekoodia, ja me parantelemme sitä vilkkaasti yhteisöprojektina. Liity joukkoomme, niin rakennamme sitä yhdessä!",
     "desc_para3": "Voit auttaa kehityksessä tukemalla tiimiä GitHub-sponsorina. Toivomme, että nautit Elkin käytöstä!",
     "desc_para4": "Jos haluat ilmoittaa ohjelmontivirheestä, auttaa testauksessa, antaa palautetta tai osallistua,",
     "desc_para5": "ota meihin yhteyttä GitHubissa",
     "desc_para6": "ja tule mukaan.",
-    "footer_team": "Elk-tiimi",
+    "footer_team": "Glowrea-tiimi",
     "title": "Tervetuloa Elkiin!"
   },
   "language": {
@@ -366,14 +366,14 @@
   "pwa": {
     "dismiss": "Hylkää",
     "install": "Asenna",
-    "install_title": "Asenna Elk",
+    "install_title": "Asenna Glowrea",
     "screenshots": {
       "dark": "Näyttökuva Elkistä tummassa tilassa",
       "light": "Näyttökuva Elkistä vaaleassa tilassa"
     },
-    "title": "Uusi Elk-päivitys saatavilla!",
+    "title": "Uusi Glowrea-päivitys saatavilla!",
     "update": "Päivitä",
-    "update_available_short": "Päivitä Elk",
+    "update_available_short": "Päivitä Glowrea",
     "webmanifest": {
       "canary": {
         "description": "Ketterä verkkosovellus Mastodonille (canary-versio)",
@@ -382,18 +382,18 @@
       },
       "dev": {
         "description": "Ketterä verkkosovellus Mastodonille (kehitysversio)",
-        "name": "Elk (dev)",
-        "short_name": "Elk (dev)"
+        "name": "Glowrea (dev)",
+        "short_name": "Glowrea (dev)"
       },
       "preview": {
         "description": "Ketterä verkkosovellus Mastodonille (esijulkaisu)",
-        "name": "Elk (preview)",
-        "short_name": "Elk (preview)"
+        "name": "Glowrea (preview)",
+        "short_name": "Glowrea (preview)"
       },
       "release": {
         "description": "Ketterä verkkosovellus Mastodonille",
-        "name": "Elk",
-        "short_name": "Elk"
+        "name": "Glowrea",
+        "short_name": "Glowrea"
       }
     }
   },
@@ -446,7 +446,7 @@
       "sponsor_action_desc": "niin tuet Elkin kehitystiimiä",
       "sponsors": "Tukijat",
       "sponsors_body_1": "Elkin mahdollistaa avokätinen tuki ja apu seuraavilta:",
-      "sponsors_body_2": "sekä kaikki yritykset ja yksilöt, jotka tukevat Elk-tiimiä ja sen jäseniä.",
+      "sponsors_body_2": "sekä kaikki yritykset ja yksilöt, jotka tukevat Glowrea-tiimiä ja sen jäseniä.",
       "sponsors_body_3": "Jos pidät sovelluksesta, harkitse tukemistamme:",
       "version": "Versio"
     },
@@ -513,7 +513,7 @@
           "repo_link": "Elkin ohjelmistolähde GitHubissa",
           "request_error": "Tapahtui virhe pyydettäessä tilausta. Yritä uudelleen, ja jos virhe toistuu, ilmoita virheestä Elkin ohjelmistolähteeseen.",
           "title": "Puskuilmoitusten tilaus epäonnistui",
-          "too_many_registrations": "Selaimen rajoitteiden vuoksi Elk ei voi tilata puskuilmoituksia useilta tileiltä eri palvelimilla. Poista puskuilmoitukset käytöstä toisella tililläsi ja yritä uudelleen.",
+          "too_many_registrations": "Selaimen rajoitteiden vuoksi Glowrea ei voi tilata puskuilmoituksia useilta tileiltä eri palvelimilla. Poista puskuilmoitukset käytöstä toisella tililläsi ja yritä uudelleen.",
           "vapid_not_supported": "Selaimesi tukee puskuilmoituksia mutta ei näytä tukevan VAPID-protokollaa."
         },
         "title": "Puskuilmoitusten asetukset",
@@ -522,10 +522,10 @@
         "unsupported": "Selaimesi ei tue puskuilmoituksia.",
         "warning": {
           "enable_close": "Sulje",
-          "enable_description": "Saadaksesi ilmoituksia, kun Elk ei ole auki, ota puskuilmoitukset käyttöön. Sen jälkeen voit valita tarkemmin, millaiset vuorovaikutukset tuottavat ilmoituksia, käyttämällä painiketta \"@:settings.notifications.show_btn{'\"'} alapuolella.",
-          "enable_description_desktop": "Saadaksesi ilmoituksia, kun Elk ei ole auki, ota puskuilmoitukset käyttöön. Sen jälkeen voit valita tarkemmin, millaiset vuorovaikutukset tuottavat ilmoituksia, kohdassa \"Asetukset > Ilmoitukset > Puskuilmoitusten asetukset\".",
+          "enable_description": "Saadaksesi ilmoituksia, kun Glowrea ei ole auki, ota puskuilmoitukset käyttöön. Sen jälkeen voit valita tarkemmin, millaiset vuorovaikutukset tuottavat ilmoituksia, käyttämällä painiketta \"@:settings.notifications.show_btn{'\"'} alapuolella.",
+          "enable_description_desktop": "Saadaksesi ilmoituksia, kun Glowrea ei ole auki, ota puskuilmoitukset käyttöön. Sen jälkeen voit valita tarkemmin, millaiset vuorovaikutukset tuottavat ilmoituksia, kohdassa \"Asetukset > Ilmoitukset > Puskuilmoitusten asetukset\".",
           "enable_description_mobile": "Pääset asetuksiin myös navigointivalikosta \"Asetukset > Ilmoitukset > Puskuilmoitusten asetukset\".",
-          "enable_description_settings": "Saadaksesi ilmoituksia, kun Elk ei ole auki, ota puskuilmoitukset käyttöön. Sen jälkeen voit valita tarkemmin, millaiset vuorovaikutukset tuottavat ilmoituksia, tällä samalla näytöllä.",
+          "enable_description_settings": "Saadaksesi ilmoituksia, kun Glowrea ei ole auki, ota puskuilmoitukset käyttöön. Sen jälkeen voit valita tarkemmin, millaiset vuorovaikutukset tuottavat ilmoituksia, tällä samalla näytöllä.",
           "enable_desktop": "Ota puskuilmoitukset käyttöön",
           "enable_title": "Älä anna tapahtumien livahtaa ohitsesi",
           "re_auth": "Palvelimesi ei ilmeisesti tue puskuilmoituksia. Yritä kirjautua ulos ja takaisin sisään, ja jos tämä viesti ilmestyy uudelleen, ole yhteydessä palvelimesi ylläpitäjään."
@@ -596,7 +596,7 @@
     }
   },
   "share_target": {
-    "description": "Elkin voi määrittää niin, että voit jakaa sisältöä muista sovelluksista: asenna Elk laitteellesi ja kirjaudu sisään.",
+    "description": "Elkin voi määrittää niin, että voit jakaa sisältöä muista sovelluksista: asenna Glowrea laitteellesi ja kirjaudu sisään.",
     "hint": "Jotta voit jakaa sisältöä Elkillä, sen täytyy olla asennettuna ja sinun sisäänkirjautuneena.",
     "title": "Jaa Elkillä"
   },

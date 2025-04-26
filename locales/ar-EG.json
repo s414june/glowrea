@@ -2,6 +2,7 @@
   "action": {
     "switch_server": "تبديل الخادم"
   },
+  "app_desc_short": "GLOWREA - دع المناظر الطبيعية Mastodon تتدفق مثل الضوء.",
   "user": {
     "tip_search_server": "انتقل إلى دليل Mastodon واستكشف الحالات التي قد ترغب فيها."
   }

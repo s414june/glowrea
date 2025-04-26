@@ -2,6 +2,7 @@
   "action": {
     "switch_server": "Servidor de cambio"
   },
+  "app_desc_short": "Glowrea: deje que el paisaje del mastodón fluya como la luz.",
   "user": {
     "tip_search_server": "Vaya al directorio de Mastodon y explore las instancias que le gusten."
   }

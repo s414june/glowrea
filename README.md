@@ -1,158 +1,50 @@
 <p align="center">
-  <a href="https://elk.zone" target="_blank" rel="noopener noreferrer">
-    <img width="160" height="160" src="./public/logo.svg" alt="Elk logo">
-  </a>
+  <img width="160" height="160" src="./public/logo.svg" alt="Glowrea Logo">
 </p>
 
-<h1 align="center"/>Elk <sup><em>alpha</em></sup></h1>
+<h1 align="center">Glowrea <sup><em>alpha 版</em></sup></h1>
 
 <p align="center">
-A nimble Mastodon web client
+光景，讓Mastodon景致——如光流動
 </p>
 
-<br/>
-<p align="center">
-  <a href="https://chat.elk.zone"><img src="https://img.shields.io/badge/chat-discord-blue?style=flat&logo=discord" alt="discord chat"></a>
-  <a href="https://volta.net/elk-zone/elk?utm_source=elk_readme"><img src="https://user-images.githubusercontent.com/904724/209143798-32345f6c-3cf8-4e06-9659-f4ace4a6acde.svg" alt="Open board on Volta"></a>
-</p>
-<br/>
+---
 
-<p align="center">
-  <a href="https://elk.zone/" target="_blank" rel="noopener noreferrer" >
-    <img src="./public/elk-og.png" alt="Elk screenshots" width="600" height="auto">
-  </a>
-</p>
+## ⚠️ Glowrea 目前處於 Alpha 階段
 
-## ⚠️ Elk is in Alpha
+Glowrea 已經能夠穩定使用基本功能，但尚未完全適合大規模普及。
+如果你樂於參與測試，歡迎使用 Glowrea 並提供意見回饋！
 
-It is already quite usable, but it isn't ready for wide adoption yet. We recommend you use it if you would like to help us build it. We appreciate your feedback and contributions. Check out the [Open Issues](https://github.com/elk-zone/elk/issues) and jump in the action. Join the [Elk discord server](https://chat.elk.zone) to chat with us and learn more about the project.
+---
 
-## Deployment
+## ✨ Glowrea 核心特色
 
-### Official Deployment
+- 友善繁體中文使用者，並將陸續完善東亞地區語言
+- UI/UX強化
+- 未來可能推出多項創新功能
 
-The Elk team maintains a deployment at:
+---
 
-- 🦌 Production: [elk.zone](https://elk.zone)
-- 🐙 Canary: [main.elk.zone](https://main.elk.zone) (deploys on every commit to `main` branch)
+## 🧩 技術架構
 
-### Self-Host Docker Deployment
+- [Nuxt](https://nuxt.com/) - 現代化網頁應用框架
+- [Vue 3](https://vuejs.org/) - 進階版 JavaScript UI 框架
+- [UnoCSS](https://uno.antfu.me/) - 即時按需的原子化 CSS 引擎
+- [Masto.js](https://neet.github.io/masto.js) - Mastodon API TypeScript 客戶端
+- [Vite](https://vitejs.dev/) - 快速建構工具
+- [vite-plugin-pwa](https://vite-pwa-org.netlify.app/) - 進階 PWA 支援
 
-In order to host Elk yourself you can use the provided Dockerfile to build a container with elk. Be aware, that Elk only loads properly if the connection is done via SSL/TLS. The Docker container itself does not provide any SSL/TLS handling. You'll have to add this bit yourself.
-One could put Elk behind popular reverse proxies with SSL Handling like Traefik, NGINX etc.
+---
 
-1. checkout source ```git clone https://github.com/elk-zone/elk.git```
-1. got into new source dir: ```cd elk```
-1. create local storage directory for settings: ```mkdir elk-storage```
-1. adjust permissions of storage dir: ```sudo chown 911:911 ./elk-storage```
-1. start container: ```docker-compose up --build -d```
+## 💖 特別感謝
+Glowrea 原始版本基於 Elk 專案開發，遵循 MIT 授權。
+同時感謝 Mastodon 與開放聯邦網路社群提供的基礎技術支持。
 
-> [!NOTE]
-> The provided Dockerfile creates a container which will eventually run Elk as non-root user and create a persistent named Docker volume upon first start (if that volume does not yet exist). This volume is always created with root permission. Failing to change the permissions of ```/elk/data``` inside this volume to UID:GID 911 (as specified for Elk in the Dockerfile) will prevent Elk from storing it's config for user accounts. You either have to fix the permission in the created named volume, or mount a directory with the correct permission to ```/elk/data``` into the container.
+---
 
-### Ecosystem
+## 📄 授權條款
+Glowrea 專案遵循雙重授權：
 
-These are known deployments using Elk as an alternative Web client for Mastodon servers or as a base for other projects in the fediverse:
+基於 Elk 的部分，遵循 MIT License。
 
-- [elk.fedified.com](https://elk.fedified.com) - Use Elk to log into any compatible instance
-- [elk.me.uk](https://elk.me.uk) - Use Elk to log into any compatible instance, hosted on Google Cloud Run with no Cloudflare proxy
-- [elk.h4.io](https://elk.h4.io) - Use Elk for the `h4.io` Server
-- [elk.universeodon.com](https://elk.universeodon.com) - Use Elk for the Universeodon Server
-- [elk.vmst.io](https://elk.vmst.io) - Use Elk for the `vmst.io` Server
-- [elk.hostux.social](https://elk.hostux.social) - Use Elk for the `hostux.social` Server
-- [elk.cupoftea.social](https://elk.cupoftea.social) - Use Elk for the `cupoftea.social` Server
-- [elk.aus.social](https://elk.aus.social) - Use Elk for the `aus.social` Server
-- [elk.mstdn.ca](https://elk.mstdn.ca) - Use Elk for the `mstdn.ca` Server
-- [elk.mastodonapp.uk](https://elk.mastodonapp.uk) - Use Elk for the `mastodonapp.uk` Server
-- [elk.bolha.us](https://elk.bolha.us) - Use Elk for the `bolha.us` Server
-- [crab.bumscode.com](https://crab.bumscode.com) - Use [crab](https://github.com/maybeanerd/crab) - a soft fork of Elk - for the `bumscode.com` Server
-
-> **Note**: Community deployments are **NOT** maintained by the Elk team. It may not be synced with Elk's source code. Please do your own research about the host servers before using them.
-
-## 💖 Sponsors
-
-We are grateful for the generous sponsorship and help of:
-
-<a href="https://nuxtlabs.com/" target="_blank" rel="noopener noreferrer" >
-  <img src="./images/nuxtlabs.svg" alt="NuxtLabs" height="85">
-</a>
-<br><br>
-<a href="https://stackblitz.com/" target="_blank" rel="noopener noreferrer" >
-  <img src="./images/stackblitz.svg" alt="StackBlitz" height="85">
-</a>
-<br><br>
-
-And all the companies and individuals sponsoring Elk Team and the members. If you're enjoying the app, consider sponsoring us:
-
-- [Elk Team's GitHub Sponsors](https://github.com/sponsors/elk-zone)
-
-Or you can sponsor our core team members individually:
-
-- [Anthony Fu](https://github.com/sponsors/antfu)
-- [Daniel Roe](https://github.com/sponsors/danielroe)
-- [三咲智子 Kevin Deng](https://github.com/sponsors/sxzz)
-- [Patak](https://github.com/sponsors/patak-dev)
-
-We would also appreciate sponsoring other contributors to the Elk project. If someone helps you solve an issue or implement a feature you wanted, supporting them would help make this project and OS more sustainable.
-
-## 📍 Roadmap
-
-[Open board on Volta](https://volta.net/elk-zone/elk)
-
-## 🧑‍💻 Contributing
-
-We're really excited that you're interested in contributing to Elk! Before submitting your contribution, please read through the following guide.
-
-### Local Setup
-
-Clone the repository and run on the root folder:
-
-```
-pnpm i
-pnpm run dev
-```
-
-`Warning`: you will need `corepack` enabled, check out the [Elk Contributing Guide](./CONTRIBUTING.md) for a detailed guide on how to set up the project locally.
-
-We recommend installing [ni](https://github.com/antfu/ni#ni), that will use the right package manager in each of your projects. If `ni` is installed, you can instead run:
-
-```
-ni
-nr dev
-```
-
-### Testing
-
-Elk uses [Vitest](https://vitest.dev). You can run the test suite with:
-
-```
-nr test
-```
-
-## 📲 PWA
-
-You can consult the [PWA documentation](https://docs.elk.zone/pwa) to learn more about the PWA capabilities on Elk, how to install Elk PWA in your desktop or mobile device and some hints about PWA stuff on Elk.
-
-## 🦄 Stack
-
-- [Vite](https://vitejs.dev/) - Next Generation Frontend Tooling
-- [Nuxt](https://nuxt.com/) - The Intuitive Web Framework
-- [Vue](https://vuejs.org/) - The Progressive JavaScript Framework
-- [VueUse](https://vueuse.org/) - Collection of Vue Composition Utilities
-- [Pinia](https://pinia.vuejs.org/) - The Vue Store that you will enjoy using
-- [Vue Macros](https://vue-macros.sxzz.moe/) - More macros and syntax sugar for Vue
-- [UnoCSS](https://uno.antfu.me/) - The instant on-demand atomic CSS engine
-- [Iconify](https://github.com/iconify/icon-sets#iconify-icon-sets-in-json-format) - Iconify icon sets in JSON format
-- [Masto.js](https://neet.github.io/masto.js) - Mastodon API client in TypeScript
-- [shiki](https://shiki.style/) - A beautiful yet powerful syntax highlighter
-- [vite-plugin-pwa](https://github.com/vite-pwa/vite-plugin-pwa) - Prompt for update, Web Push Notifications and Web Share Target API
-
-## 👨‍💻 Contributors
-
-<a href="https://github.com/elk-zone/elk/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=elk-zone/elk" />
-</a>
-
-## 📄 License
-
-[MIT](./LICENSE) &copy; 2022-PRESENT Elk contributors
+Glowrea 自行新增與開發之內容（介面設計等），著作權由 Glowrea 作者 保留，未經授權不得使用、修改或散布。
