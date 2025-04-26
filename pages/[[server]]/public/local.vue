@@ -4,6 +4,10 @@ const { t } = useI18n()
 useHydratedHead({
   title: () => t('title.local_timeline'),
 })
+
+function changeSwitchServerDialogDisplay(isOpen: boolean) {
+  isSwitchServerDialogOpen.value = isOpen
+}
 </script>
 
 <template>
