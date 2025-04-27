@@ -20,8 +20,7 @@ export function getShortHandle({ acct }: mastodon.v1.Account) {
 export function getServerName(account: mastodon.v1.Account) {
   if (account.acct?.includes('@'))
     return account.acct.split('@')[1]
-  // We should only lack the server name if we're on the same server as the account
-  return currentInstance.value ? getInstanceDomain(currentInstance.value) : ''
+  return account.url.split('/')[2] === currentServer.value ? '' : account.url.split('/')[2]
 }
 
 export function getFullHandle(account: mastodon.v1.Account) {
