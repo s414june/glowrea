@@ -32,7 +32,8 @@ const isGrayscale = usePreferences('grayscaleMode')
               <div flex-auto />
               <div v-if="isHydrated" flex flex-col sticky bottom-0 bg-base>
                 <div hidden xl:block>
-                  <UserSignInEntry v-if="!currentUser" />
+                  <UserEntry />
+                  <!-- <UserSignInEntry v-if="!currentUser" /> -->
                 </div>
                 <div v-if="currentUser" p6 pb8 w-full>
                   <div hidden xl-block>
