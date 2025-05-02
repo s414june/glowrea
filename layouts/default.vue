@@ -59,7 +59,7 @@ const isGrayscale = usePreferences('grayscaleMode')
         w-full min-h-screen :class="isHydrated && wideLayout ? 'xl:w-full sm:w-600px' : 'sm:w-600px md:shrink-0'"
         border-base
       >
-        <div min-h="[calc(100vh-3.5rem)]" sm:min-h-screen>
+        <div min-h-screen>
           <slot />
         </div>
         <div sticky left-0 right-0 bottom-0 z-10 bg-base pb="[env(safe-area-inset-bottom)]" transition="padding 20">
