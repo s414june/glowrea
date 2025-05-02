@@ -14,6 +14,9 @@ self.addEventListener('message', (event) => {
 })
 
 export function onShareTarget(event: FetchEvent) {
+  const url = new URL(event.request.url)
+  if (url.origin !== self.origin)
+    return // only handle our own requests
   if (!event.request.url.endsWith('/web-share-target') || event.request.method !== 'POST')
     return
 
