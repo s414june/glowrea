@@ -124,7 +124,7 @@ onClickOutside(input, () => {
           ref="input" v-model="server" autocapitalize="off" inputmode="url" outline-none bg-transparent w-full
           max-w-50 spellcheck="false" autocorrect="off" autocomplete="off" tabindex="0" @input="handleInput"
           @keydown.down="move(1)" @keydown.up="move(-1)" @keydown.enter="onEnter"
-          @keydown.esc.prevent="escapeAutocomplete" @focus="autocompleteShow = true"
+          @keydown.esc.prevent="escapeAutocomplete" @checkCanFocusTrap="autocompleteShow = true"
         >
         <div
           v-if="autocompleteShow && filteredServers.length" absolute left-6em right-0 top="100%" bg-base rounded
