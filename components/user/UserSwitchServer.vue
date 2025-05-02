@@ -9,6 +9,7 @@ const autocompleteShow = ref(false)
 const { busy, error, displayError, server } = useSignIn(input)
 
 const fuse = shallowRef(new Fuse([] as string[]))
+const isComposing = ref(false)
 
 const filteredServers = computed(() => {
   if (!server.value)
@@ -75,6 +76,8 @@ function onEnter(e: KeyboardEvent) {
 }
 
 function escapeAutocomplete(evt: KeyboardEvent) {
+  if (!isComposing.value)
+    return
   if (!autocompleteShow.value)
     return
   autocompleteShow.value = false
@@ -124,7 +127,8 @@ onClickOutside(input, () => {
           ref="input" v-model="server" autocapitalize="off" inputmode="url" outline-none bg-transparent w-full
           max-w-50 spellcheck="false" autocorrect="off" autocomplete="off" tabindex="0" @input="handleInput"
           @keydown.down="move(1)" @keydown.up="move(-1)" @keydown.enter="onEnter"
-          @keydown.esc.prevent="escapeAutocomplete" @checkCanFocusTrap="autocompleteShow = true"
+          @keydown.esc.prevent="escapeAutocomplete" @checkCanFocusTrap="autocompleteShow = true" @compositionstart="isComposing = true"
+          @compositionend="isComposing = false"
         >
         <div
           v-if="autocompleteShow && filteredServers.length" absolute left-6em right-0 top="100%" bg-base rounded
