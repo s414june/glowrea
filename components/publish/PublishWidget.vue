@@ -250,8 +250,8 @@ function stopQuestionMarkPropagation(e: KeyboardEvent) {
         <NuxtLink self-start :to="getAccountRoute(currentUser.account)">
           <AccountBigAvatar :account="currentUser.account" square />
         </NuxtLink>
-        <div v-if="!isFinalItemOfThread" w-full h-full flex  justify-center>
-          <div w-2px border="x base" mb-6 />
+        <div v-if="!isFinalItemOfThread" w-full h-full flex justify-center>
+          <div w-2px mb-6 bg-border />
         </div>
       </div>
 

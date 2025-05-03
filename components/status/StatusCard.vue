@@ -95,11 +95,11 @@ const forceShow = ref(false)
           z--1
         >
           <template v-if="showReplyTo">
-            <div w="2px" h="0.5" border="x base" mt-3 />
-            <div w="2px" h="0.5" border="x base" />
-            <div w="2px" h="0.5" border="x base" />
+            <div w="2px" h="0.5" bg-border mt-3 />
+            <div w="2px" h="0.5" bg-border />
+            <div w="2px" h="0.5" bg-border />
           </template>
-          <div w="2px" h-10 border="x base" />
+          <div w="2px" h-10 bg-border />
         </div>
       </template>
 
@@ -152,7 +152,7 @@ const forceShow = ref(false)
           </AccountHoverWrapper>
 
           <div v-if="connectReply" w-full h-full flex justify-center>
-            <div w-2px border="x base" mb-8 />
+            <div w-2px bg-border mb-8 />
           </div>
         </div>
 
