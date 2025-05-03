@@ -127,7 +127,7 @@ onDeactivated(cancelEdit)
         ref="input"
         v-model="form.title"
         rounded-3 w-full bg-transparent
-        outline="focus:none" pe-4 pb="1px"
+        outline="focus:none" pe-4 pb="2px"
         flex-1 placeholder-text-secondary
         @keydown.esc="cancelEdit()"
       >

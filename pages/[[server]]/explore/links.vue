@@ -30,9 +30,9 @@ onActivated(() => {
       <StatusPreviewCard :card="item" border="!b base" rounded="!none" p="!4" small-picture-only root />
     </template>
     <template #loading>
-      <StatusPreviewCardSkeleton square root border="b base" />
-      <StatusPreviewCardSkeleton square root border="b base" op50 />
-      <StatusPreviewCardSkeleton square root border="b base" op25 />
+      <StatusPreviewCardSkeleton square root border="b-2 base" />
+      <StatusPreviewCardSkeleton square root border="b-2 base" op50 />
+      <StatusPreviewCardSkeleton square root border="b-2 base" op25 />
     </template>
   </CommonPaginator>
 </template>

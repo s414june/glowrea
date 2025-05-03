@@ -148,7 +148,7 @@ useEventListener('keydown', (e: KeyboardEvent) => {
             <!-- We use `class` here to make v-bind being able to be override them -->
             <div
               ref="elDialogMain"
-              class="dialog-main rounded shadow-lg pointer-events-auto isolate bg-base border-base border-1px border-solid w-full max-h-full of-y-auto overscroll-contain touch-pan-y touch-pan-x"
+              class="dialog-main rounded shadow-lg pointer-events-auto isolate bg-base border-base border-2px border-solid w-full max-h-full of-y-auto overscroll-contain touch-pan-y touch-pan-x"
               v-bind="bindTypeToAny($attrs)"
             >
               <slot />

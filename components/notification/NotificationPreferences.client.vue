@@ -114,7 +114,7 @@ onActivated(() => (busy.value = false))
 <template>
   <section v-if="pwaEnabled && (showWarning || show)" aria-labelledby="pn-s">
     <Transition name="slide-down">
-      <div v-if="show" flex="~ col" border="b base">
+      <div v-if="show" flex="~ col" border="b-2 base">
         <h3 id="pn-settings" px6 py4 mt2 font-bold text-xl flex="~ gap-1" items-center>
           {{ $t('settings.notifications.push_notifications.label') }}
         </h3>
@@ -164,7 +164,7 @@ onActivated(() => (busy.value = false))
               </div>
             </form>
             <form flex="~ col" mt-4 @submit.prevent="removeSubscription">
-              <span border="b base 2px" class="bg-$c-text-secondary" />
+              <span border="b-2 base" class="bg-$c-text-secondary" />
               <button
                 btn-outline rounded-full font-bold py-4 flex="~ gap2 center" m5
                 :class="busy ? 'border-transparent' : null"

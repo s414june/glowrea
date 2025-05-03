@@ -68,7 +68,7 @@ onReactivated(() => {
   <MainContent back>
     <template v-if="!pending">
       <template v-if="status">
-        <div xl:mt-4 mb="50vh" border="b base">
+        <div xl:mt-4 mb="50vh" border="b-2 base">
           <template v-if="!pendingContext">
             <StatusCard
               v-for="(comment, i) of context?.ancestors" :key="comment.id"
@@ -122,7 +122,7 @@ onReactivated(() => {
       <StatusNotFound v-else :account="route.params.account as string" :status="id" />
     </template>
 
-    <StatusCardSkeleton v-else border="b base" />
+    <StatusCardSkeleton v-else border="b-2 base" />
     <TimelineSkeleton v-if="pending || pendingContext" />
   </MainContent>
 </template>

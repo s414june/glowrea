@@ -38,7 +38,7 @@ if (account) {
     <AccountTabs />
     <TimelinePaginator :paginator="pinnedPaginator" :preprocess="applyPinned" context="account" :account="account" :end-message="false" />
     <!-- Upper border -->
-    <div h="1px" w-auto bg-border mb-1 />
+    <div h="2px" w-auto bg-border mb-1 />
     <TimelinePaginator :paginator="postPaginator" :preprocess="reorderAndFilter" context="account" :account="account" />
   </div>
 </template>

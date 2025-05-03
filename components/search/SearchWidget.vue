@@ -65,7 +65,7 @@ function activate() {
 <template>
   <div ref="el" relative group>
     <div bg-base border="~ base" h10 ps-4 pe-1 rounded-3 flex="~ row" items-center relative focus-within:box-shadow-outline>
-      <div i-ri:search-2-line pointer-events-none text-secondary mt="1px" class="rtl-flip" />
+      <div i-ri:search-2-line pointer-events-none text-secondary mt="2px" class="rtl-flip" />
       <input
         ref="input"
         v-model="query"
@@ -78,7 +78,7 @@ function activate() {
         pe-1
         ml-1
         :placeholder="t('nav.search')"
-        pb="1px"
+        pb="2px"
         placeholder-text-secondary
         @keydown.down.prevent="shift(1)"
         @keydown.up.prevent="shift(-1)"

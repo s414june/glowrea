@@ -131,7 +131,7 @@ async function copyAccountName() {
       <span text-primary font-bold>{{ $t('account.requested', [account.displayName]) }}</span>
       <AccountFollowRequestButton :account="account" :relationship="relationship" />
     </div>
-    <component :is="hasHeader ? 'button' : 'div'" border="b base" z-1 @click="hasHeader ? previewHeader() : undefined">
+    <component :is="hasHeader ? 'button' : 'div'" border="b-2 base" z-1 @click="hasHeader ? previewHeader() : undefined">
       <img h-50 height="200" w-full object-cover :src="account.header" :alt="t('account.profile_description', [account.username])">
     </component>
     <div p4 mt--18 flex flex-col gap-4>
@@ -211,7 +211,7 @@ async function copyAccountName() {
         space-y-2
         pb-4
         block
-        border="b base"
+        border="b-2 base"
       >
         <div flex flex-row space-x-2 flex-v-center>
           <div i-ri-edit-2-line />

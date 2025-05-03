@@ -23,7 +23,7 @@ const showOriginSite = computed(() =>
         :account="item"
         :relationship-context="relationshipContext"
         hover-card
-        border="b base" py2 px4
+        border="b-2 base" py2 px4
       />
     </template>
     <template v-if="fallbackContext && showOriginSite" #done>

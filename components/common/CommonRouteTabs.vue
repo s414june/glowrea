@@ -23,7 +23,7 @@ useCommands(() => command
 </script>
 
 <template>
-  <div flex w-full items-center lg:text-lg of-x-auto scrollbar-hide border="b base">
+  <div flex w-full items-center lg:text-lg of-x-auto scrollbar-hide border="b-2 base">
     <template
       v-for="(option, index) in options.filter(item => !item.hide)"
       :key="option?.name || index"

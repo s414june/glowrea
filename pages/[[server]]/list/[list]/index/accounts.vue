@@ -16,7 +16,7 @@ const paginator = useMastoClient().v1.lists.$select(listId.value).accounts.list(
         :account="item"
         :list="listId"
         hover-card
-        border="b base" py2 px4
+        border="b-2 base" py2 px4
       />
     </template>
   </CommonPaginator>

@@ -16,7 +16,7 @@ const stream = useStreaming(client => client.user.subscribe())
 <template>
   <div>
     <PublishWidgetList draft-key="home" />
-    <div h="1px" w-auto bg-border mb-3 />
+    <div h="2px" w-auto bg-border mb-3 />
     <TimelinePaginator v-bind="{ paginator, stream }" :preprocess="reorderAndFilter" context="home" />
   </div>
 </template>

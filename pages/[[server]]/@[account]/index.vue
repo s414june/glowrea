@@ -35,7 +35,7 @@ onReactivated(() => {
     <template v-if="pending" />
     <template v-else-if="account">
       <AccountMoved v-if="account.moved" :account="account" />
-      <AccountHeader :account="account" command border="b base" :class="{ 'op-50 grayscale-50': !!account.moved }" />
+      <AccountHeader :account="account" command border="b-2 base" :class="{ 'op-50 grayscale-50': !!account.moved }" />
 
       <div v-if="relationship?.blockedBy" h-30 flex="~ col center gap-2">
         <div text-secondary>

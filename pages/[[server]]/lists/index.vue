@@ -95,7 +95,7 @@ onDeactivated(() => clearError(false))
             bg-transparent
             outline="focus:none"
             px-4
-            pb="1px"
+            pb="2px"
             flex-1
             placeholder-text-secondary
             :placeholder="$t('list.list_title_placeholder')"

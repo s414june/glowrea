@@ -49,7 +49,7 @@ function handleShowCommit() {
       <SettingsItem :text="$t('settings.about.built_at')" :content="builtTime" />
     </template>
 
-    <div h-1px bg-border my2 />
+    <div h-2px bg-border my2 />
 
     <SettingsItem
       :text="$t('nav.show_intro')"
@@ -72,7 +72,7 @@ function handleShowCommit() {
       external large target="_blank"
     />
 
-    <div h-1px bg-border my2 />
+    <div h-2px bg-border my2 />
 
     <p px5 py3 font-bold text-lg>
       {{ $t('settings.about.sponsors') }}
@@ -102,7 +102,7 @@ function handleShowCommit() {
       </template>
     </SettingsItem>
 
-    <div h-1px bg-border my2 />
+    <div h-2px bg-border my2 />
 
     <template v-if="isHydrated">
       <p px5 py3 font-bold text-lg>

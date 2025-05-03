@@ -30,6 +30,6 @@ const modelValue = defineModel()
 <style>
 .common-radio:focus-within {
   outline: none;
-  border-bottom: 1px solid var(--c-text-base);
+  border-bottom: 2px solid var(--c-text-base);
 }
 </style>

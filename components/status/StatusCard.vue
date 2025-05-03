@@ -70,7 +70,7 @@ const forceShow = ref(false)
 <template>
   <StatusLink :status="status" :hover="hover">
     <!-- Upper border -->
-    <div :h="showUpperBorder ? '1px' : '0'" w-auto bg-border z--1 />
+    <div :h="showUpperBorder ? '2px' : '0'" w-auto bg-border z--1 />
 
     <slot name="meta">
       <!-- Pinned status -->
@@ -90,23 +90,26 @@ const forceShow = ref(false)
           v-if="showReplyTo" m="is-5" p="t-1 is-5" :status="status" :is-self-reply="isSelfReply"
           :class="inNotification ? 'text-secondary-light' : ''"
         />
-        <div flex="~ col gap-1" items-center pos="absolute top-0 inset-is-0" w="55px" md:w="60px" z--1>
+        <div
+          flex="~ col gap-1" items-center pos="absolute top-0 inset-is-0" m="is-3 ie-3" md:w-14 md:h-14 w-40px h-40px
+          z--1
+        >
           <template v-if="showReplyTo">
-            <div w="1px" h="0.5" border="x base" mt-3 />
-            <div w="1px" h="0.5" border="x base" />
-            <div w="1px" h="0.5" border="x base" />
+            <div w="2px" h="0.5" border="x base" mt-3 />
+            <div w="2px" h="0.5" border="x base" />
+            <div w="2px" h="0.5" border="x base" />
           </template>
-          <div w="1px" h-10 border="x base" />
+          <div w="2px" h-10 border="x base" />
         </div>
       </template>
 
       <!-- Reblog status -->
       <div flex="~ col" justify-between>
         <div
-          v-if="rebloggedBy && !collapseRebloggedBy" flex="~" items-center p="t-1 b-0.5 x-1px" relative
+          v-if="rebloggedBy && !collapseRebloggedBy" flex="~" items-center p="t-1 b-0.5 x-2px" relative
           text-secondary ws-nowrap
         >
-          <div i-ri:repeat-fill me-46px text-green w-12px h-12px class="status-boosted" />
+          <div i-ri:repeat-fill me-46px text-green md:w-16px md:h-16px w-14px h-14px class="status-boosted" />
           <div absolute top-1 ms-24px w-20px h-20px rounded-full>
             <AccountHoverWrapper :account="rebloggedBy">
               <NuxtLink :to="getAccountRoute(rebloggedBy)">
@@ -149,7 +152,7 @@ const forceShow = ref(false)
           </AccountHoverWrapper>
 
           <div v-if="connectReply" w-full h-full flex justify-center>
-            <div w-1px border="x base" mb-8 />
+            <div w-2px border="x base" mb-8 />
           </div>
         </div>
 

@@ -26,13 +26,13 @@ onActivated(() => {
         :account="item.account"
         as="router-link"
         :to="getAccountRoute(item.account)"
-        border="b base"
+        border="b-2 base"
       />
     </template>
     <template #loading>
-      <AccountBigCardSkeleton border="b base" />
-      <AccountBigCardSkeleton border="b base" op50 />
-      <AccountBigCardSkeleton border="b base" op25 />
+      <AccountBigCardSkeleton border="b-2 base" />
+      <AccountBigCardSkeleton border="b-2 base" op50 />
+      <AccountBigCardSkeleton border="b-2 base" op25 />
     </template>
   </CommonPaginator>
 </template>

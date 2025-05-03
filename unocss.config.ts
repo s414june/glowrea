@@ -53,7 +53,7 @@ export default defineConfig({
       'input-base-focus': 'focus:outline-none focus:border-$c-primary',
       'input-base-disabled': 'disabled:pointer-events-none disabled:bg-gray-500/5 disabled:text-gray-500/50',
       'input-base': 'p2 rounded w-full bg-transparent border border-dark input-base-focus input-base-disabled',
-      'input-error': 'border-$c-error focus:(outline-offset-0 outline-$c-error outline-1px)',
+      'input-error': 'border-$c-error focus:(outline-offset-0 outline-$c-error outline-2px)',
 
       'select-settings': 'p3 border border-base rounded w-full block bg-base',
 
@@ -146,6 +146,6 @@ export default defineConfig({
       res += `\n${res.replace('{height:100vh;}', '{height:100vh;height:100dvh;}')}`
       return res
     }],
-    ['box-shadow-outline', { 'box-shadow': '0 0 0 1px var(--c-primary)' }],
+    ['box-shadow-outline', { 'box-shadow': '0 0 0 2px var(--c-primary)' }],
   ],
 })

@@ -37,7 +37,6 @@ const containerClass = computed(() => {
     >
       <div
         flex justify-between pe5 py2 :class="{ 'xl:hidden': $route.name !== 'tag', 'ps5': !(backOnSmallScreen || back) }" class="native:xl:flex"
-        border="b base"
       >
         <div flex gap-3 items-center :overflow-hidden="!noOverflowHidden ? '' : false" w-full>
           <div flex items-center :overflow-hidden="!noOverflowHidden ? '' : false" w-full>
@@ -53,7 +52,7 @@ const containerClass = computed(() => {
             >
               <slot name="title" />
             </div>
-            <div sm:hidden h-7 w-1px />
+            <div sm:hidden h-7 w-2px />
           </div>
         </div>
         <div flex items-center flex-shrink-0 gap-x-2>

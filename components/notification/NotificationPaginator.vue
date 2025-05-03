@@ -176,7 +176,7 @@ const { formatNumber } = useHumanReadableNumber()
     :virtualScroller="virtualScroller"
   >
     <template #updater="{ number, update }">
-      <button id="show_new_items" py-4 border="b base" flex="~ col" p-3 w-full text-primary font-bold @click="() => { update(); clearNotifications() }">
+      <button id="show_new_items" py-4 border="b-2 base" flex="~ col" p-3 w-full text-primary font-bold @click="() => { update(); clearNotifications() }">
         {{ $t('timeline.show_new_items', number, { named: { v: formatNumber(number) } }) }}
       </button>
     </template>
@@ -186,18 +186,18 @@ const { formatNumber } = useHumanReadableNumber()
           <NotificationGroupedFollow
             v-if="item.type === 'grouped-follow'"
             :items="item"
-            border="b base"
+            border="b-2 base"
           />
           <NotificationGroupedLikes
             v-else-if="item.type === 'grouped-reblogs-and-favourites'"
             :group="item"
-            border="b base"
+            border="b-2 base"
           />
           <NotificationCard
             v-else
             :notification="item"
             hover:bg-active
-            border="b base"
+            border="b-2 base"
           />
         </DynamicScrollerItem>
       </template>
@@ -205,18 +205,18 @@ const { formatNumber } = useHumanReadableNumber()
         <NotificationGroupedFollow
           v-if="item.type === 'grouped-follow'"
           :items="item"
-          border="b base"
+          border="b-2 base"
         />
         <NotificationGroupedLikes
           v-else-if="item.type === 'grouped-reblogs-and-favourites'"
           :group="item"
-          border="b base"
+          border="b-2 base"
         />
         <NotificationCard
           v-else
           :notification="item"
           hover:bg-active
-          border="b base"
+          border="b-2 base"
         />
       </template>
     </template>

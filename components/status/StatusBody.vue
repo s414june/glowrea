@@ -39,7 +39,7 @@ const vnode = computed(() => {
     </span>
     <div v-else />
     <template v-if="translation.visible">
-      <div my2 h-px border="b base" bg-base />
+      <div my2 h-px border="b-2 base" bg-base />
       <ContentRich v-if="translation.success" class="line-compact" :content="translation.text" :emojis="status.emojis" />
       <div v-else text-red-4>
         Error: {{ translation.error }}

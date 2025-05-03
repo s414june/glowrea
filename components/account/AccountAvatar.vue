@@ -18,8 +18,8 @@ const accountAvatarSrc = computed(() => {
 <template>
   <img
     :key="account.avatar"
-    width="400"
-    height="400"
+    width="100%"
+    height="100%"
     select-none
     :src="(error || !loaded) ? 'data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' : accountAvatarSrc"
     :alt="$t('account.avatar_description', [account.username])"

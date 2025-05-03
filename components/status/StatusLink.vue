@@ -35,7 +35,7 @@ function go(evt: MouseEvent | KeyboardEvent) {
     :id="`status-${status.id}`"
     ref="el"
     relative flex="~ col gap1"
-    p="is-3 ie-4"
+    p="is-3 ie-4 t-2"
     :class="{ 'hover:bg-active': hover }"
     tabindex="0"
     focus:outline-none focus-visible:ring="2 primary inset"

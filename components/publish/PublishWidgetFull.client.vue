@@ -40,7 +40,7 @@ function firstDraftItemOf(drafts: DraftItem | Array<DraftItem>): DraftItem {
         <template #popper="{ hide }">
           <div flex="~ col">
             <NuxtLink
-              v-for="[key, drafts] of nonEmptyDrafts" :key="key" border="b base" text-left py2 px4
+              v-for="[key, drafts] of nonEmptyDrafts" :key="key" border="b-2 base" text-left py2 px4
               hover:bg-active :replace="true" :to="`/compose?draft=${encodeURIComponent(key)}`" @click="hide()"
             >
               <div>

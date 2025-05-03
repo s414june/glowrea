@@ -252,7 +252,7 @@ function resetModal() {
 
 <style>
 tr {
-  border-bottom-width: 1px;
+  border-bottom-width: 2px;
 }
 
 tr:last-child {
