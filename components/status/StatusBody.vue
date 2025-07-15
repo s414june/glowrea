@@ -13,6 +13,10 @@ const {
 
 const { translation } = useTranslation(status, getLanguageCode())
 
+const statusBodyComponent = ref<HTMLElement | null>(null)
+const hasMore = ref(false)
+const openMore = ref(false)
+
 const emojisObject = useEmojisFallback(() => status.emojis)
 const vnode = computed(() => {
   if (!status.content)
@@ -26,21 +30,49 @@ const vnode = computed(() => {
     inReplyToStatus: newer,
   })
 })
+
+onMounted(() => {
+  if (statusBodyComponent.value) {
+    const originHeight = statusBodyComponent.value.scrollHeight
+    statusBodyComponent.value.setAttribute('clip', 'true')
+
+    const newHeight = statusBodyComponent.value?.scrollHeight
+    if (originHeight === newHeight) {
+      statusBodyComponent.value.setAttribute('clip', 'false')
+    }
+    else {
+      hasMore.value = true
+    }
+  }
+})
 </script>
 
 <template>
-  <div class="status-body" whitespace-pre-wrap break-words :class="{ 'with-action': withAction }" relative>
+  <div
+    ref="statusBodyComponent" class="status-body" whitespace-pre-wrap break-words
+    :class="{ 'with-action': withAction, 'close-more': !openMore }" relative
+  >
     <span
-      v-if="status.content"
-      class="content-rich line-compact flex flex-col" dir="auto"
+      v-if="status.content" class="content-rich line-compact flex flex-col" dir="auto"
       :lang="('language' in status && status.language) || undefined"
     >
       <component :is="vnode" v-if="vnode" />
     </span>
     <div v-else />
+    <button
+      v-show="hasMore && !openMore" text-primary m="t-2" i-ri:arrow-down-double-line type="button"
+      class="action-button" @click="openMore = true"
+    />
+    <button
+      v-show="hasMore && openMore" text-primary m="t-2" i-ri:arrow-up-double-line type="button"
+      class="action-button" @click="openMore = false"
+    />
     <template v-if="translation.visible">
       <div my2 h-px border="b-2 base" bg-base />
-      <ContentRich v-if="translation.success" class="line-compact" :content="translation.text" :emojis="status.emojis" />
+      <ContentRich
+        v-if="translation.success" class="line-compact" :content="translation.text"
+        :emojis="status.emojis"
+      />
       <div v-else text-red-4>
         Error: {{ translation.error }}
       </div>
@@ -48,8 +80,17 @@ const vnode = computed(() => {
   </div>
 </template>
 
-<style>
+<style scoped>
 .status-body.with-action p {
   cursor: pointer;
+}
+
+.status-body.with-action[clip=true].close-more>* {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 10;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  clear: both;
 }
 </style>

@@ -201,7 +201,7 @@ const forceShow = ref(false)
   </StatusLink>
 </template>
 
-<style>
+<style scoped>
 .vue-recycle-scroller__item-view:first-child .header-top-line {
   padding-top: 0;
 
