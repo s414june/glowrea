@@ -91,13 +91,15 @@ const forceShow = ref(false)
           :class="inNotification ? 'text-secondary-light' : ''"
         />
         <div
-          flex="~ col gap-1" items-center pos="absolute top-0 inset-is-0" m="is-3 ie-3" md:w-14 md:h-14 w-40px h-40px
-          z--1
+          class="header-top-line"
+          flex="~ col" items-center pos="absolute top-0 inset-is-0" m="is-3 ie-3" p="t-2"
+          md:w-14 md:h-14 w-40px h-40px z--1
+          style="gap: 3px;"
         >
           <template v-if="showReplyTo">
-            <div w="2px" h="0.5" bg-border mt-3 />
-            <div w="2px" h="0.5" bg-border />
-            <div w="2px" h="0.5" bg-border />
+            <div w="2px" h="1" bg-border mt-1 />
+            <div w="2px" h="1" bg-border />
+            <div w="2px" h="1" bg-border />
           </template>
           <div w="2px" h-10 bg-border />
         </div>
@@ -198,3 +200,10 @@ const forceShow = ref(false)
     </div>
   </StatusLink>
 </template>
+
+<style>
+.vue-recycle-scroller__item-view:first-child .header-top-line {
+  padding-top: 0;
+
+}
+</style>
