@@ -77,7 +77,8 @@ em-emoji-picker {
     --at-apply: font-bold;
   }
   p {
-    --at-apply: my-2;
+    --at-apply: my-3;
+    border: 1px solid transparent;
   }
   p:first-child {
     --at-apply: mt-1;
