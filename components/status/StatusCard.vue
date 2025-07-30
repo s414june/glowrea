@@ -92,8 +92,8 @@ const forceShow = ref(false)
         />
         <div
           class="header-top-line"
-          flex="~ col" items-center pos="absolute top-[-2px] inset-is-0" m="is-3 ie-3" p="t-2"
-          md:w-14 md:h-14 w-40px h-40px z--1
+          flex="~ col" items-center pos="absolute top-[-3px] inset-is-0" m="is-3 ie-3" p="t-2"
+          md:w-14 md:h-14 w-40px h-55px z--1
           style="gap: 3px;"
         >
           <template v-if="showReplyTo">
