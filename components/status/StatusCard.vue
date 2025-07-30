@@ -101,7 +101,7 @@ const forceShow = ref(false)
             <div w="2px" h="1" bg-border />
             <div w="2px" h="1" bg-border />
           </template>
-          <div w="2px" h-10 bg-border />
+          <div w="2px" h-12 bg-border />
         </div>
       </template>
 

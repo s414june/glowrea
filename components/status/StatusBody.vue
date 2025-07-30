@@ -65,14 +65,16 @@ onMounted(() => {
         <component :is="vnode" v-if="vnode" />
       </span>
       <div v-else />
-      <button
-        v-show="hasMore && !openMore" text-primary m="t-2" i-ri:arrow-down-double-line type="button"
-        class="action-button" @click="openMore = true"
-      />
-      <button
-        v-show="hasMore && openMore" text-primary m="t-2" i-ri:arrow-up-double-line type="button"
-        class="action-button" @click="openMore = false"
-      />
+      <div v-if="withAction" class="!flex justify-end items-center gap-2">
+        <button
+          v-show="hasMore && !openMore" text-primary m="t-2" i-ri:arrow-down-double-line type="button"
+          class="action-button" @click="openMore = true"
+        />
+        <button
+          v-show="hasMore && openMore" text-primary m="t-2" i-ri:arrow-up-double-line type="button"
+          class="action-button" @click="openMore = false"
+        />
+      </div>
       <template v-if="translation.visible">
         <div my2 h-px border="b-2 base" bg-base />
         <ContentRich
@@ -95,7 +97,7 @@ onMounted(() => {
 .status-body.with-action[data-clip="true"].close-more>* {
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 10;
+  -webkit-line-clamp: 20;
   text-overflow: ellipsis;
   overflow: hidden;
   clear: both;
